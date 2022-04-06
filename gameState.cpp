@@ -232,7 +232,7 @@ gameState * gameState::getParent() {
     return parent;
 }
 
-string gameState::getStateKey() {
+int gameState::getStateKey() {
     string s = "";
     s = s.append(to_string(game.leftChickens));
     s = s.append(to_string(game.leftWolves));
@@ -240,7 +240,7 @@ string gameState::getStateKey() {
     s = s.append(to_string(game.rightChickens));
     s = s.append(to_string(game.rightWolves));
     s = s.append(to_string(game.boat == true));
-    return s;
+    return stoi(s);
 }
 
 void gameState::printState() {

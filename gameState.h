@@ -28,7 +28,7 @@ class gameState {
         gameState ** getChildren();
         gameState * getParent();
 
-        string getStateKey(); //accessor for unique string representation of current state (331001)
+        int getStateKey(); //accessor for unique string representation of current state (331001)
     
         void printState();
 
