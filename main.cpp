@@ -12,10 +12,11 @@ using namespace std;
 struct state readFile(string, string);
 int declareMode(string);
 
-void bfsSearch(struct state init, struct state goal);
-void dfsSearch(struct state init, struct state goal);
-void iddfsSearch(struct state init, struct state goal);
-void astarSearch(struct state init, struct state goal);
+gameState * bfsSearch(struct state init, struct state goal);
+gameState * dfsSearch(struct state init, struct state goal);
+gameState * iddfsSearch(struct state init, struct state goal);
+gameState * astarSearch(struct state init, struct state goal);
+void writeSolution(string path, gameState * s);
 
 int main(int argc, char ** argv) {
   try {
@@ -34,27 +35,30 @@ int main(int argc, char ** argv) {
   cout << endl << "Goal:" << endl << "Left Bank:\t" << goal.leftChickens << "," << goal.leftWolves << "," << (goal.boat==false) << endl;
   cout << "Right Bank:\t" << goal.rightChickens << "," << goal.rightWolves << "," << (goal.boat==true) << endl;
   
+  gameState * s;
+
   int mode = declareMode(argv[3]);
   switch(mode) {
     case 0:
-      bfsSearch(init, goal);
+      s = bfsSearch(init, goal);
       break;
     case 1:
-      dfsSearch(init, goal);
+      s = dfsSearch(init, goal);
       break;
     case 2:
-      iddfsSearch(init, goal);
+      s = iddfsSearch(init, goal);
       break;
     case 3:
-      astarSearch(init, goal);
+      s = astarSearch(init, goal);
       break;
     default:
       return 0;
   }
+  writeSolution(argv[4], s);
   return 0;
 }
 
-void bfsSearch(struct state init, struct state goal) {
+gameState * bfsSearch(struct state init, struct state goal) {
   cout << "Performing BFS..." << endl;
 
   //generate the root node
@@ -71,21 +75,14 @@ void bfsSearch(struct state init, struct state goal) {
 
   while (true) {
     if (frontier.empty()) {
-      cout << "No solution" << endl;
-      return;
+      return NULL;
     }
     else {
-      cout << "There are " << frontier.size() << " nodes in the frontier" << endl;
       s = frontier.front();
       explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon(goal)) {
-        cout << "Solution found!" << endl;
-        s->printState();
-          while (s = s->getParent()) {
-            s->printState();
-          }
-        return;
+        return s;
       }
       s->expand();
       gameState **children = s->getChildren();
@@ -93,31 +90,33 @@ void bfsSearch(struct state init, struct state goal) {
         if (children[i] == NULL)
           continue;
         else {
-          cout << "Valid path found @" << i << endl;
           expanded++;
           if (explored[children[i]->getStateKey()] != true) {
-            cout << "Unexplored path found @" << i << endl;
             frontier.push(children[i]);
           }
         }
       }
     }
   }
+  return NULL;
 }
 
-void dfsSearch(struct state init, struct state goal) {
+gameState * dfsSearch(struct state init, struct state goal) {
   cout << "Performing DFS..." << endl;
   gameState * s = new gameState(init);
+  return NULL;
 }
 
-void iddfsSearch(struct state init, struct state goal) {
+gameState * iddfsSearch(struct state init, struct state goal) {
   cout << "Performing IDDFS..." << endl;
   gameState * s = new gameState(init);
+  return NULL;
 }
 
-void astarSearch(struct state init, struct state goal) {
+gameState * astarSearch(struct state init, struct state goal) {
   cout << "Performing A*..." << endl;
   gameState * s = new gameState(init);
+  return NULL;
 }
 
 struct state readFile(string filePath, string state) {
@@ -171,4 +170,8 @@ int declareMode(string mode) {
     return 3;
   else
     return -1;
+}
+
+void writeSolution(string path, gameState * s) {
+
 }
