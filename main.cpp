@@ -9,13 +9,17 @@ void readFile(string, string);
 void declareState(string);
 
 int main(int argc, char ** argv) {
-  if (argc != 5) {
-    cout << "\nPlease provide 4 arguments: <initial state file> <goal state file> <mode> <output file>";
-    cout << "\nMode options...\n\tbfs: breadth-first search\n\tdfs: depth-first search\n\tiddfs: iterative deepening depth-first search\n\tastar: A-star search";
+  try {
+    if (argc != 5) {
+      throw(invalid_argument("\nPlease provide 4 arguments: <initial state file> <goal state file> <mode> <output file>\nMode options...\n\tbfs: breadth-first search\n\tdfs: depth-first search\n\tiddfs: iterative deepening depth-first search\n\tastar: A-star search\n\n"));
+    }
+    readFile(argv[1], "Initial");
+    readFile(argv[2], "Goal");
+    declareState(argv[3]);
   }
-  readFile(argv[1], "Initial");
-  readFile(argv[2], "Goal");
-  declareState(argv[3]);
+  catch(const std::exception& e) {
+    cout << "\nAn exception occurred while processing command line inputs:\n" << e.what();
+  }
   return 0;
 }
 

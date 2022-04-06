@@ -1,3 +1,4 @@
-finalState.csv
-initState.csv
+*.csv
 a.out
+*.o
+main
