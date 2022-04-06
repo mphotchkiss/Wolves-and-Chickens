@@ -5,6 +5,7 @@
 #include "state.h"
 #include "gameState.h"
 #include <vector>
+#include <queue>
 
 using namespace std;
 
@@ -63,24 +64,27 @@ void bfsSearch(struct state init, struct state goal) {
   map<string, bool> explored;
   
   //initialize the frontier with the initial state
-  vector<gameState *> frontier;
-  frontier.insert(frontier.begin(),s);
+  queue<gameState *> frontier;
+  frontier.push(s);
 
   int expanded = 0;
 
   while (true) {
-    s->printState();
     if (frontier.empty()) {
       cout << "No solution" << endl;
       return;
     }
     else {
       cout << "There are " << frontier.size() << " nodes in the frontier" << endl;
-      s = frontier.back();
+      s = frontier.front();
       explored.insert(pair<string, bool>(s->getStateKey(), true));
-      frontier.pop_back();
+      frontier.pop();
       if (s->isWon(goal)) {
         cout << "Solution found!" << endl;
+        s->printState();
+          while (s = s->getParent()) {
+            s->printState();
+          }
         return;
       }
       s->expand();
@@ -93,13 +97,12 @@ void bfsSearch(struct state init, struct state goal) {
           expanded++;
           if (explored[children[i]->getStateKey()] != true) {
             cout << "Unexplored path found @" << i << endl;
-            frontier.insert(frontier.begin(), children[i]);
+            frontier.push(children[i]);
           }
         }
       }
     }
   }
-  cout << "Solution found!" << endl;
 }
 
 void dfsSearch(struct state init, struct state goal) {

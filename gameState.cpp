@@ -244,5 +244,5 @@ string gameState::getStateKey() {
 }
 
 void gameState::printState() {
-    cout << "Left Bank: \n\tChickens: " << game.leftChickens << "\n\tWolves: " << game.leftWolves << "\n\nRight Bank: \n\tChickens: " << game.rightChickens << "\n\tWolves: " << game.rightWolves << "\n";
+    cout << "---------------------------------\nLeft Bank: \n\tChickens: " << game.leftChickens << "\n\tWolves: " << game.leftWolves << "\n\nRight Bank: \n\tChickens: " << game.rightChickens << "\n\tWolves: " << game.rightWolves << "\n";
 }
