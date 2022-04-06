@@ -4,6 +4,7 @@
 #include <map>
 #include "state.h"
 #include "gameState.h"
+#include <vector>
 
 using namespace std;
 
@@ -54,7 +55,46 @@ int main(int argc, char ** argv) {
 
 void bfsSearch(struct state init, struct state goal) {
   cout << "Performing BFS..." << endl;
+
+  //generate the root node
   gameState * s = new gameState(init);
+
+  //initialize the explored map as empty
+  map<string, bool> explored;
+  
+  //initialize the frontier with the initial state
+  vector<gameState *> frontier;
+  frontier.push_back(s);
+
+  int expanded = 0;
+
+  while (true) {
+    if (frontier.empty()) {
+      cout << "No solution" << endl;
+      return;
+    }
+    else {
+      s = frontier.back();
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
+      frontier.pop_back();
+      if (s->isWon(goal)) {
+        cout << "Solution found!" << endl;
+        return;
+      }
+      s->expand();
+      gameState **children = s->getChildren();
+      for (int i = 0; i < 5; i++) {
+        if (children[i] == NULL)
+          continue;
+        else {
+          expanded++;
+          if (!explored[children[i]->getStateKey()])
+            frontier.insert(frontier.begin(), children[i]);
+        }
+      }
+    }
+  }
+  cout << "Solution found!" << endl;
 }
 
 void dfsSearch(struct state init, struct state goal) {

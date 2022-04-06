@@ -11,6 +11,9 @@ class gameState {
     public:
         gameState();
         gameState(struct state);
+        gameState(struct state, gameState *);
+
+        gameState * expand();
 
         bool isWon(struct state goal); //current state is the goal state
         bool isLost(); //current state is a losing state
@@ -22,9 +25,15 @@ class gameState {
         gameState * twoWolves(); //two wolves on the boat
 
         struct state getState(); //public accessor function of the state
+        gameState ** getChildren();
+        gameState * getParent();
+
+        string getStateKey(); //accessor for unique string representation of current state (331001)
     
     private:
         struct state game;
+        gameState * parent;
+        gameState ** children;
 };
 
 #endif

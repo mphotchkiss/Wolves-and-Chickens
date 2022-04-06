@@ -7,6 +7,7 @@ gameState::gameState() {
     game.rightChickens = 0;
     game.leftWolves = 3;
     game.rightWolves = 0;
+    parent = NULL;
 }
 
 gameState::gameState(struct state s) {
@@ -15,6 +16,27 @@ gameState::gameState(struct state s) {
     game.rightChickens = s.rightChickens;
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
+    parent = NULL;
+}
+
+gameState::gameState(struct state s, gameState * gs) {
+    game.boat = s.boat;
+    game.leftChickens = s.leftChickens;
+    game.rightChickens = s.rightChickens;
+    game.leftWolves = s.leftWolves;
+    game.rightWolves = s.rightWolves;
+    parent = gs;
+}
+
+gameState * gameState::expand() {
+    children = new gameState * [5];
+    gameState * gs;
+    children[0] = oneChicken();
+    children[1] = twoChickens();
+    children[2] = oneWolf();
+    children[3] = oneEach();
+    children[4] = twoWolves();
+    return this;
 }
 
 bool gameState::isWon(struct state goal) {
@@ -33,7 +55,7 @@ gameState * gameState::oneChicken() {
             next.leftChickens = game.leftChickens - 1;
             next.rightChickens = game.rightChickens + 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -46,7 +68,7 @@ gameState * gameState::oneChicken() {
             next.rightChickens = game.rightChickens - 1;
             next.leftChickens = game.leftChickens + 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -63,7 +85,7 @@ gameState * gameState::twoChickens() {
             next.leftChickens = game.leftChickens - 2;
             next.rightChickens = game.rightChickens + 2;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -76,7 +98,7 @@ gameState * gameState::twoChickens() {
             next.rightChickens = game.rightChickens - 2;
             next.leftChickens = game.leftChickens + 2;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -93,7 +115,7 @@ gameState * gameState::oneWolf() {
             next.leftWolves = game.leftWolves - 1;
             next.rightWolves = game.rightWolves + 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -106,7 +128,7 @@ gameState * gameState::oneWolf() {
             next.rightWolves = game.rightWolves -= 1;
             next.leftWolves = game.leftWolves += 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -125,7 +147,7 @@ gameState * gameState::oneEach() {
             next.rightWolves = game.rightWolves + 1;
             next.rightChickens = game.rightChickens + 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -140,7 +162,7 @@ gameState * gameState::oneEach() {
             next.leftWolves = game.leftWolves + 1;
             next.leftChickens = game.leftChickens + 1;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -158,7 +180,7 @@ gameState * gameState::twoWolves() {
             next.leftWolves = game.leftWolves - 2;
             next.rightWolves = game.rightWolves + 2;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -171,7 +193,7 @@ gameState * gameState::twoWolves() {
             next.rightWolves = game.rightWolves - 2;
             next.leftWolves = game.leftWolves + 2;
             next.boat = !game.boat;
-            s = new gameState(next);
+            s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -185,3 +207,21 @@ struct state gameState::getState() {
     return game;
 }
 
+gameState ** gameState::getChildren() {
+    return children;
+}
+
+gameState * gameState::getParent() {
+    return parent;
+}
+
+string gameState::getStateKey() {
+    string s = "";
+    s += game.leftChickens;
+    s += game.leftWolves;
+    s += game.boat == false;
+    s += game.rightChickens;
+    s += game.rightWolves;
+    s += game.boat == true;
+    return s;
+}
