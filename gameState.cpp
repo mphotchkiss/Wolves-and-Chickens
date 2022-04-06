@@ -8,6 +8,7 @@ gameState::gameState() {
     game.leftWolves = 3;
     game.rightWolves = 0;
     parent = NULL;
+    children = new gameState * [5];
 }
 
 gameState::gameState(struct state s) {
@@ -17,6 +18,7 @@ gameState::gameState(struct state s) {
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
     parent = NULL;
+    children = new gameState * [5];
 }
 
 gameState::gameState(struct state s, gameState * gs) {
@@ -26,10 +28,10 @@ gameState::gameState(struct state s, gameState * gs) {
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
     parent = gs;
+    children = new gameState * [5];
 }
 
 gameState * gameState::expand() {
-    children = new gameState * [5];
     gameState * gs;
     children[0] = oneChicken();
     children[1] = twoChickens();
@@ -44,13 +46,13 @@ bool gameState::isWon(struct state goal) {
 }
 
 bool gameState::isLost() {
-    return game.leftWolves > game.leftChickens || game.rightWolves > game.rightChickens;
+    return ((game.leftWolves > game.leftChickens) && (game.leftChickens > 0)) || ((game.rightChickens > 0) && (game.rightWolves > game.rightChickens));
 }
 
 gameState * gameState::oneChicken() {
     struct state next;
     gameState * s;
-    if (game.boat) {
+    if (!game.boat) {
         if (game.leftChickens > 0) {
             next.leftChickens = game.leftChickens - 1;
             next.rightChickens = game.rightChickens + 1;
@@ -80,7 +82,7 @@ gameState * gameState::oneChicken() {
 gameState * gameState::twoChickens() {
     struct state next;
     gameState * s;
-    if (game.boat) {
+    if (!game.boat) {
         if (game.leftChickens > 1) {
             next.leftChickens = game.leftChickens - 2;
             next.rightChickens = game.rightChickens + 2;
@@ -109,13 +111,12 @@ gameState * gameState::twoChickens() {
 }
 gameState * gameState::oneWolf() {
     struct state next;
-    gameState * s;
-    if (game.boat) {
+    if (!game.boat) {
         if (game.leftWolves > 0) {
             next.leftWolves = game.leftWolves - 1;
             next.rightWolves = game.rightWolves + 1;
             next.boat = !game.boat;
-            s = new gameState(next, this);
+            gameState * s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -125,10 +126,10 @@ gameState * gameState::oneWolf() {
     }
     else {
         if (game.rightWolves > 0) {
-            next.rightWolves = game.rightWolves -= 1;
-            next.leftWolves = game.leftWolves += 1;
+            next.rightWolves = game.rightWolves - 1;
+            next.leftWolves = game.leftWolves + 1;
             next.boat = !game.boat;
-            s = new gameState(next, this);
+            gameState * s = new gameState(next, this);
             if (s->isLost())
                 return NULL;
             else
@@ -140,7 +141,7 @@ gameState * gameState::oneWolf() {
 gameState * gameState::oneEach() {
     struct state next;
     gameState * s;
-    if (game.boat) {
+    if (!game.boat) {
         if (game.leftWolves > 0 && game.leftChickens > 0) {
             next.leftWolves = game.leftWolves - 1;
             next.leftChickens = game.leftChickens - 1;
@@ -175,7 +176,7 @@ gameState * gameState::oneEach() {
 gameState * gameState::twoWolves() {
     struct state next;
     gameState * s;
-    if (game.boat) {
+    if (!game.boat) {
         if (game.leftWolves > 1) {
             next.leftWolves = game.leftWolves - 2;
             next.rightWolves = game.rightWolves + 2;
@@ -217,11 +218,11 @@ gameState * gameState::getParent() {
 
 string gameState::getStateKey() {
     string s = "";
-    s += game.leftChickens;
-    s += game.leftWolves;
-    s += game.boat == false;
-    s += game.rightChickens;
-    s += game.rightWolves;
-    s += game.boat == true;
+    s = s.append(to_string(game.leftChickens));
+    s = s.append(to_string(game.leftWolves));
+    s = s.append(to_string(game.boat == false));
+    s = s.append(to_string(game.rightChickens));
+    s = s.append(to_string(game.rightWolves));
+    s = s.append(to_string(game.boat == true));
     return s;
 }

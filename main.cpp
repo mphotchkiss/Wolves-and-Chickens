@@ -64,17 +64,17 @@ void bfsSearch(struct state init, struct state goal) {
   
   //initialize the frontier with the initial state
   vector<gameState *> frontier;
-  frontier.push_back(s);
+  frontier.insert(frontier.begin(),s);
 
   int expanded = 0;
 
   while (true) {
-    cout << "There are " << frontier.size() << " nodes in the frontier" << endl;
     if (frontier.empty()) {
       cout << "No solution" << endl;
       return;
     }
     else {
+      cout << "There are " << frontier.size() << " nodes in the frontier" << endl;
       s = frontier.back();
       explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop_back();
@@ -88,9 +88,12 @@ void bfsSearch(struct state init, struct state goal) {
         if (children[i] == NULL)
           continue;
         else {
+          cout << "Valid path found @" << i << endl;
           expanded++;
-          if (!explored[children[i]->getStateKey()])
+          if (explored[children[i]->getStateKey()] != true) {
+            cout << "Unexplored path found @" << i << endl;
             frontier.insert(frontier.begin(), children[i]);
+          }
         }
       }
     }
@@ -125,7 +128,7 @@ struct state readFile(string filePath, string state) {
       getline(file, n, ',');
       s.leftWolves = stoi(n);
       getline(file, n, '\n');
-      s.boat = stoi(n) != 1;
+      s.boat = stoi(n) == 0;
       getline(file, n, ',');
       s.rightChickens = stoi(n);
       getline(file, n, ',');
