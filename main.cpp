@@ -69,6 +69,7 @@ void bfsSearch(struct state init, struct state goal) {
   int expanded = 0;
 
   while (true) {
+    s->printState();
     if (frontier.empty()) {
       cout << "No solution" << endl;
       return;

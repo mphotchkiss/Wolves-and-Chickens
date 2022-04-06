@@ -30,6 +30,8 @@ class gameState {
 
         string getStateKey(); //accessor for unique string representation of current state (331001)
     
+        void printState();
+
     private:
         struct state game;
         gameState * parent;
