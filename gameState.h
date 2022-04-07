@@ -27,6 +27,7 @@ class gameState {
         struct state getState(); //public accessor function of the state
         gameState ** getChildren();
         gameState * getParent();
+        int getDepth();
 
         int getStateKey(); //accessor for unique string representation of current state (331001)
     
@@ -36,6 +37,7 @@ class gameState {
         struct state game;
         gameState * parent;
         gameState ** children;
+        int depth;
 };
 
 #endif
