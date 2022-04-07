@@ -12,10 +12,10 @@ using namespace std;
 struct state readFile(string, string);
 int declareMode(string);
 
-void bfsSearch(struct state init, struct state goal, char * output_file);
-gameState * dfsSearch(struct state init, struct state goal);
-gameState * iddfsSearch(struct state init, struct state goal);
-gameState * astarSearch(struct state init, struct state goal);
+gameState * bfsSearch(struct state init, struct state goal, char * output_file);
+gameState * dfsSearch(struct state init, struct state goal, char * output_file);
+gameState * iddfsSearch(struct state init, struct state goal, char * output_file);
+gameState * astarSearch(struct state init, struct state goal, char * output_file);
 void writeSolution(string path, gameState * s);
 
 int main(int argc, char ** argv) {
@@ -43,13 +43,13 @@ int main(int argc, char ** argv) {
       bfsSearch(init, goal, argv[4]);
       break;
     case 1:
-      s = dfsSearch(init, goal);
+      s = dfsSearch(init, goal, argv[4]);
       break;
     case 2:
-      s = iddfsSearch(init, goal);
+      s = iddfsSearch(init, goal, argv[4]);
       break;
     case 3:
-      s = astarSearch(init, goal);
+      s = astarSearch(init, goal, argv[4]);
       break;
     default:
       return 0;
@@ -59,25 +59,25 @@ int main(int argc, char ** argv) {
 
 void printOutput(gameState * s, int expanded, char * output_file)
 {
-  int path_length = 0;
+  int path_length = -1;
   ofstream fout;
   fout.open(output_file);
-  while (s->getParent() != NULL)
+  while (s != NULL)
   {
     path_length++;
     fout << "Left Bank: ";
-    fout << s->getState().leftChickens;
-    fout << " Chickens, ";
-    fout << s->getState().leftWolves;
-    fout << " Wolves, ";
-    fout << int(s->getState().boat);
-    fout << " Boat\n";
-    fout << "Right Bank: ";
     fout << s->getState().rightChickens;
     fout << " Chickens, ";
     fout << s->getState().rightWolves;
     fout << " Wolves, ";
-    fout << int(!(s->getState().boat));
+    fout << int(s->getState().boat);
+    fout << " Boat\n";
+    fout << "Right Bank: ";
+    fout << s->getState().leftChickens;
+    fout << " Chickens, ";
+    fout << s->getState().leftWolves;
+    fout << " Wolves, ";
+    fout << int(!s->getState().boat);
     fout << " Boat\n\n";
     s = s->getParent();
   }
@@ -87,7 +87,7 @@ void printOutput(gameState * s, int expanded, char * output_file)
   fout << path_length << endl;
 }
 
-void bfsSearch(struct state init, struct state goal, char * output_file) {
+gameState * bfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing BFS..." << endl;
 
   int expanded = 0;
@@ -105,23 +105,24 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
 
   while (true) {
     if (frontier.empty()) {
-      return;
+      cout << "no solution found" << endl;
+      return NULL;
     }
     else {
       s = frontier.front();
-      explored.insert(pair<string, bool>(s->getStateKey(), true));
+      explored.insert(pair<int, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon(goal)) {
         printOutput(s, expanded, output_file);
-        return;
+        return s;
       }
       s->expand();
+      expanded++;
       gameState **children = s->getChildren();
       for (int i = 0; i < 5; i++) {
         if (children[i] == NULL)
           continue;
         else {
-          expanded++;
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
             frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
@@ -130,10 +131,10 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
       }
     }
   }
-  return;
+  return NULL;
 }
 
-gameState * dfsSearch(struct state init, struct state goal) {
+gameState * dfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing DFS..." << endl;
   gameState * s = new gameState(init);
 
@@ -149,6 +150,7 @@ gameState * dfsSearch(struct state init, struct state goal) {
 
   while (true) {
     if (frontier.empty()) {
+      cout << "no solution found" << endl;
       return NULL;
     }
     else {
@@ -156,15 +158,16 @@ gameState * dfsSearch(struct state init, struct state goal) {
       explored.insert(pair<int, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon(goal)) {
+        printOutput(s, expanded, output_file);
         return s;
       }
       s->expand();
+      expanded++;
       gameState **children = s->getChildren();
       for (int i = 0; i < 5; i++) {
         if (children[i] == NULL)
           continue;
         else {
-          expanded++;
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
             frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
@@ -176,43 +179,49 @@ gameState * dfsSearch(struct state init, struct state goal) {
   return NULL;
 }
 
-gameState * iddfsSearch(struct state init, struct state goal) {
+gameState * iddfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing IDDFS..." << endl;
-  gameState * s = new gameState(init);
+  gameState * i = new gameState(init);
 
   int expanded = 0;
 
-  for (int depth = 0; depth < INT_MAX; depth++) {
+  for (int depth = 0; depth < 20; depth++) {
+    cout << "Evaluating at depth " << depth << endl;
     //initialize the explored map as empty
     map<int, bool> explored;
     map<int, bool> frontierMap;
     
     //initialize the frontier with the initial state
     stack<gameState *> frontier;
-    frontier.push(s);
+    frontier.push(i);
+
+    gameState * s = new gameState(init);
 
     while (true) {
       if (frontier.empty()) {
-        return NULL;
+        cout << "No solution found after expanding " << expanded << " times" << endl;
+        break;
       }
       else {
         s = frontier.top();
         explored.insert(pair<int, bool>(s->getStateKey(), true));
         frontier.pop();
         if (s->isWon(goal)) {
+          printOutput(s, expanded, output_file);
           return s;
         }
-        if (s->getDepth() == depth) {
+        if (s->getDepth() > depth) {
           continue;
         }
         s->expand();
+        expanded++;
         gameState **children = s->getChildren();
         for (int i = 0; i < 5; i++) {
           if (children[i] == NULL)
             continue;
           else {
-            expanded++;
             if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
+              cout << "Found a valid child node to explore. Adding to the frontier." << endl;
               frontier.push(children[i]);
               frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
             }
@@ -224,7 +233,7 @@ gameState * iddfsSearch(struct state init, struct state goal) {
   return NULL;
 }
 
-gameState * astarSearch(struct state init, struct state goal) {
+gameState * astarSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing A*..." << endl;
   gameState * s = new gameState(init);
   return NULL;
