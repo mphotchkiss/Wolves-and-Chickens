@@ -6,6 +6,7 @@
 #include "gameState.h"
 #include <vector>
 #include <queue>
+#include <stack>
 
 using namespace std;
 
@@ -97,7 +98,7 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
   gameState * s = new gameState(init);
 
   //initialize the explored map as empty
-  map<string, bool> explored;
+  map<int, bool> explored;
   
   //initialize the frontier with the initial state
   queue<gameState *> frontier;
@@ -109,7 +110,7 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
     }
     else {
       s = frontier.front();
-      explored.insert(pair<string, bool>(s->getStateKey(), true));
+      explored.insert(pair<int, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon(goal)) {
         printOutput(s, expanded, output_file);
@@ -122,7 +123,7 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
           continue;
         else {
           expanded++;
-          if (explored[children[i]->getStateKey()] != true) {
+          if (explored.find(children[i]->getStateKey()) == explored.end()) {
             frontier.push(children[i]);
           }
         }
@@ -135,6 +136,41 @@ void bfsSearch(struct state init, struct state goal, char * output_file) {
 gameState * dfsSearch(struct state init, struct state goal) {
   cout << "Performing DFS..." << endl;
   gameState * s = new gameState(init);
+
+    //initialize the explored map as empty
+  map<int, bool> explored;
+  
+  //initialize the frontier with the initial state
+  stack<gameState *> frontier;
+  frontier.push(s);
+
+  int expanded = 0;
+
+  while (true) {
+    if (frontier.empty()) {
+      return NULL;
+    }
+    else {
+      s = frontier.top();
+      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      frontier.pop();
+      if (s->isWon(goal)) {
+        return s;
+      }
+      s->expand();
+      gameState **children = s->getChildren();
+      for (int i = 0; i < 5; i++) {
+        if (children[i] == NULL)
+          continue;
+        else {
+          expanded++;
+          if (explored.find(children[i]->getStateKey()) == explored.end()) {
+            frontier.push(children[i]);
+          }
+        }
+      }
+    }
+  }
   return NULL;
 }
 
