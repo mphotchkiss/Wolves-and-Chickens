@@ -185,7 +185,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
 
   int expanded = 0;
 
-  for (int depth = 0; depth < 20; depth++) {
+  for (int depth = 0; depth < INT_MAX; depth++) {
     cout << "Evaluating at depth " << depth << endl;
     //initialize the explored map as empty
     map<int, bool> explored;
@@ -199,19 +199,18 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
 
     while (true) {
       if (frontier.empty()) {
-        cout << "No solution found after expanding " << expanded << " times" << endl;
         break;
       }
       else {
         s = frontier.top();
         explored.insert(pair<int, bool>(s->getStateKey(), true));
         frontier.pop();
+        if (s->getDepth() > depth) {
+          continue;
+        }
         if (s->isWon(goal)) {
           printOutput(s, expanded, output_file);
           return s;
-        }
-        if (s->getDepth() > depth) {
-          continue;
         }
         s->expand();
         expanded++;
@@ -221,7 +220,6 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
             continue;
           else {
             if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
-              cout << "Found a valid child node to explore. Adding to the frontier." << endl;
               frontier.push(children[i]);
               frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
             }
