@@ -18,6 +18,7 @@ gameState::gameState(struct state s) {
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
     parent = NULL;
+    depth = 0;
     children = new gameState * [5];
 }
 
@@ -28,6 +29,7 @@ gameState::gameState(struct state s, gameState * gs) {
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
     parent = gs;
+    depth = gs->getDepth();
     children = new gameState * [5];
 }
 
@@ -230,6 +232,10 @@ gameState ** gameState::getChildren() {
 
 gameState * gameState::getParent() {
     return parent;
+}
+
+int gameState::getDepth() {
+    return depth;
 }
 
 int gameState::getStateKey() {
