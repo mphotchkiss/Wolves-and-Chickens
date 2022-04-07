@@ -6,14 +6,13 @@
 #include "gameState.h"
 #include <vector>
 #include <queue>
-#include <stack>
 
 using namespace std;
 
 struct state readFile(string, string);
 int declareMode(string);
 
-gameState * bfsSearch(struct state init, struct state goal);
+void bfsSearch(struct state init, struct state goal, char * output_file);
 gameState * dfsSearch(struct state init, struct state goal);
 gameState * iddfsSearch(struct state init, struct state goal);
 gameState * astarSearch(struct state init, struct state goal);
@@ -41,7 +40,7 @@ int main(int argc, char ** argv) {
   int mode = declareMode(argv[3]);
   switch(mode) {
     case 0:
-      s = bfsSearch(init, goal);
+      bfsSearch(init, goal, argv[4]);
       break;
     case 1:
       s = dfsSearch(init, goal);
@@ -55,12 +54,43 @@ int main(int argc, char ** argv) {
     default:
       return 0;
   }
-  writeSolution(argv[4], s);
   return 0;
 }
 
-gameState * bfsSearch(struct state init, struct state goal) {
+void printOutput(gameState * s, int expanded, char * output_file)
+{
+  int path_length = 0;
+  ofstream fout;
+  fout.open(output_file);
+  while (s->getParent() != NULL)
+  {
+    path_length++;
+    fout << "Left Bank: ";
+    fout << s->getState().leftChickens;
+    fout << " Chickens, ";
+    fout << s->getState().leftWolves;
+    fout << " Wolves, ";
+    fout << int(s->getState().boat);
+    fout << " Boat\n";
+    fout << "Right Bank: ";
+    fout << s->getState().rightChickens;
+    fout << " Chickens, ";
+    fout << s->getState().rightWolves;
+    fout << " Wolves, ";
+    fout << int(!(s->getState().boat));
+    fout << " Boat\n\n";
+    s = s->getParent();
+  }
+  fout << "Nodes Expanded: ";
+  fout << expanded << endl;
+  fout << "\nPath Length: ";
+  fout << path_length << endl;
+}
+
+void bfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing BFS..." << endl;
+
+  int expanded = 0;
 
   //generate the root node
   gameState * s = new gameState(init);
@@ -73,18 +103,17 @@ gameState * bfsSearch(struct state init, struct state goal) {
   queue<gameState *> frontier;
   frontier.push(s);
 
-  int expanded = 0;
-
   while (true) {
     if (frontier.empty()) {
-      return NULL;
+      return;
     }
     else {
       s = frontier.front();
-      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon(goal)) {
-        return s;
+        printOutput(s, expanded, output_file);
+        return;
       }
       s->expand();
       gameState **children = s->getChildren();
@@ -101,7 +130,7 @@ gameState * bfsSearch(struct state init, struct state goal) {
       }
     }
   }
-  return NULL;
+  return;
 }
 
 gameState * dfsSearch(struct state init, struct state goal) {
@@ -252,8 +281,4 @@ int declareMode(string mode) {
     return 3;
   else
     return -1;
-}
-
-void writeSolution(string path, gameState * s) {
-
 }
