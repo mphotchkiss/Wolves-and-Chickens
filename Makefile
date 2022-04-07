@@ -1,4 +1,4 @@
-CC = g++
+CC = g++ -std=c++11
 
 main: main.o gameState.o
 	$(CC) -o main main.o gameState.o
