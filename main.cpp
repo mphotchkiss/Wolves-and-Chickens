@@ -6,6 +6,9 @@
 #include "gameState.h"
 #include <vector>
 #include <queue>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stack>
 
 using namespace std;
 
@@ -40,7 +43,7 @@ int main(int argc, char ** argv) {
   int mode = declareMode(argv[3]);
   switch(mode) {
     case 0:
-      bfsSearch(init, goal, argv[4]);
+      s = bfsSearch(init, goal, argv[4]);
       break;
     case 1:
       s = dfsSearch(init, goal, argv[4]);
@@ -93,7 +96,7 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
   int expanded = 0;
 
   //generate the root node
-  gameState * s = new gameState(init);
+  gameState * s = new gameState(init, goal);
 
   //initialize the explored map as empty
   map<int, bool> explored;
@@ -112,7 +115,7 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
       s = frontier.front();
       explored.insert(pair<int, bool>(s->getStateKey(), true));
       frontier.pop();
-      if (s->isWon(goal)) {
+      if (s->isWon()) {
         printOutput(s, expanded, output_file);
         return s;
       }
@@ -136,7 +139,7 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
 
 gameState * dfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing DFS..." << endl;
-  gameState * s = new gameState(init);
+  gameState * s = new gameState(init, goal);
 
   //initialize the explored map as empty
   map<int, bool> explored;
@@ -157,7 +160,7 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
       s = frontier.top();
       explored.insert(pair<int, bool>(s->getStateKey(), true));
       frontier.pop();
-      if (s->isWon(goal)) {
+      if (s->isWon()) {
         printOutput(s, expanded, output_file);
         return s;
       }
@@ -181,10 +184,9 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
 
 gameState * iddfsSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing IDDFS..." << endl;
-  gameState * i = new gameState(init);
+  gameState * i = new gameState(init, goal);
 
   int expanded = 0;
-
   for (int depth = 0; depth < INT_MAX; depth++) {
     cout << "Evaluating at depth " << depth << endl;
     //initialize the explored map as empty
@@ -195,7 +197,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
     stack<gameState *> frontier;
     frontier.push(i);
 
-    gameState * s = new gameState(init);
+    gameState * s = new gameState(init, goal);
 
     while (true) {
       if (frontier.empty()) {
@@ -205,12 +207,12 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
         s = frontier.top();
         explored.insert(pair<int, bool>(s->getStateKey(), true));
         frontier.pop();
-        if (s->getDepth() > depth) {
-          continue;
-        }
-        if (s->isWon(goal)) {
+        if (s->isWon()) {
           printOutput(s, expanded, output_file);
           return s;
+        }
+        if (s->getDepth() > depth) {
+          continue;
         }
         s->expand();
         expanded++;
@@ -233,7 +235,53 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
 
 gameState * astarSearch(struct state init, struct state goal, char * output_file) {
   cout << "Performing A*..." << endl;
-  gameState * s = new gameState(init);
+
+  int expanded = 0;
+
+  //generate the root node
+  gameState * s = new gameState(init, goal);
+  // bool goal_side = false; // false means the goal is to get chickens on the left
+  // if (goal.leftChickens == 0)
+  // {
+  //   goal_side = true; // the animals should finish on the right
+  // }
+
+  //initialize the explored map as empty
+  map<int, bool> explored;
+  map<int, bool> frontierMap;
+  
+  //initialize the frontier with the initial state
+  priority_queue<gameState *> frontier;
+  frontier.push(s);
+
+  while (true) {
+    if (frontier.empty()) {
+      cout << "no solution found" << endl;
+      return NULL;
+    }
+    else {
+      s = frontier.top();
+      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      frontier.pop();
+      if (s->isWon()) {
+        printOutput(s, expanded, output_file);
+        return s;
+      }
+      s->expand();
+      expanded++;
+      gameState **children = s->getChildren();
+      for (int i = 0; i < 5; i++) {
+        if (children[i] == NULL)
+          continue;
+        else {
+          if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
+            frontier.push(children[i]);
+            frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
+          }
+        }
+      }
+    }
+  }
   return NULL;
 }
 

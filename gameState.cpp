@@ -7,16 +7,26 @@ gameState::gameState() {
     game.rightChickens = 0;
     game.leftWolves = 3;
     game.rightWolves = 0;
+    goal.boat = true;
+    goal.leftChickens = 0;
+    goal.rightChickens = 3;
+    goal.leftWolves = 0;
+    goal.rightWolves = 3;
     parent = NULL;
     children = new gameState * [5];
 }
 
-gameState::gameState(struct state s) {
+gameState::gameState(struct state s, struct state g) {
     game.boat = s.boat;
     game.leftChickens = s.leftChickens;
     game.rightChickens = s.rightChickens;
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
+    goal.boat = g.boat;
+    goal.leftChickens = g.leftChickens;
+    goal.rightChickens = g.rightChickens;
+    goal.leftWolves = g.leftWolves;
+    goal.rightWolves = g.rightWolves;
     parent = NULL;
     depth = 0;
     children = new gameState * [5];
@@ -28,6 +38,7 @@ gameState::gameState(struct state s, gameState * gs) {
     game.rightChickens = s.rightChickens;
     game.leftWolves = s.leftWolves;
     game.rightWolves = s.rightWolves;
+    goal = gs->getGoal();
     parent = gs;
     depth = gs->getDepth()+1;
     children = new gameState * [5];
@@ -43,7 +54,34 @@ gameState * gameState::expand() {
     return this;
 }
 
-bool gameState::isWon(struct state goal) {
+// checks how many more moves the game would take if wolves did not have to be <= chickens
+int heuristic(gameState * s)
+{
+  // if (goal_side) // goal is on the right
+  // {
+  //   return (s->getState().leftChickens + s->getState().leftWolves) / 2;
+  // }
+  // else // goal is on the left
+  // {
+  //   return (s->getState().rightChickens + s->getState().rightWolves) / 2;
+  // }
+  int h = 0;
+  struct state state = s->getState();
+  int leftChickens = state.leftChickens;
+  int leftWolves = state.leftWolves;
+  h = abs(s->getGoal().leftChickens - leftChickens) + abs(s->getGoal().leftWolves - leftWolves);
+  if (h==2)
+    return 1;
+  else
+    return h;
+}
+
+bool gameState::operator<(gameState * s1)
+{
+    return (s1->getDepth() + heuristic(s1)) > (this->getDepth() + heuristic(this));
+}
+
+bool gameState::isWon() {
     return game.boat == goal.boat && game.leftChickens == goal.leftChickens && game.rightChickens == goal.rightChickens && game.leftWolves == goal.leftWolves && game.rightWolves == goal.rightWolves;
 }
 
@@ -224,6 +262,10 @@ gameState * gameState::twoWolves() {
 
 struct state gameState::getState() {
     return game;
+}
+
+struct state gameState::getGoal() {
+    return goal;
 }
 
 gameState ** gameState::getChildren() {
