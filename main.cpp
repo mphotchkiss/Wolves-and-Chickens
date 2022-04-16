@@ -104,8 +104,10 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
   map<string, bool> frontierMap;
   
   //initialize the frontier with the initial state
+  //vector<gameState *> test_frontier;
   queue<gameState *> frontier;
   frontier.push(s);
+  //test_frontier.push_back(s);
 
   while (true) {
     if (frontier.empty()) {
@@ -114,22 +116,36 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
     }
     else {
       s = frontier.front();
-      explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
+      //cout << "frontier:" << endl;
+      // for (int i = 0; i < test_frontier.size(); i++) {
+      //   test_frontier[i]->printState();
+      // }
+      //cout << endl;
+      //test_frontier.erase(test_frontier.begin());
       if (s->isWon()) {
         printOutput(s, expanded, output_file);
         return s;
       }
       s->expand();
       expanded++;
+      //cout << expanded << endl;
       gameState **children = s->getChildren();
+      //cout << "expanded node:" << endl;
+      //s->printState();
+      //cout << endl;
+      //cout << "possible children:" << endl;
       for (int i = 0; i < 5; i++) {
         if (children[i] == NULL)
           continue;
         else {
-          if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
+          //children[i]->printState();
+          //cout << "explored count: " << explored.count(children[i]->getStateKey()) << " frontierMap count: " << frontierMap.count(children[i]->getStateKey()) << endl;
+          if (explored.count(children[i]->getStateKey()) == 0 && frontierMap.count(children[i]->getStateKey()) == 0) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
+            //test_frontier.push_back(children[i]);
+            frontierMap.insert(pair<string, bool>(children[i]->getStateKey(), true));
           }
         }
       }
@@ -174,7 +190,7 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
         else {
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
+            frontierMap.insert(pair<string, bool>(children[i]->getStateKey(), true));
           }
         }
       }
@@ -211,6 +227,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
           printOutput(s, expanded, output_file);
           return s;
         }
+        cout << s->getDepth() << endl;
         if (s->getDepth() > depth) {
           continue;
         }
@@ -223,7 +240,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
           else {
             if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
               frontier.push(children[i]);
-              frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
+              frontierMap.insert(pair<string, bool>(children[i]->getStateKey(), true));
             }
           }
         }
@@ -276,7 +293,7 @@ gameState * astarSearch(struct state init, struct state goal, char * output_file
         else {
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
+            frontierMap.insert(pair<string, bool>(children[i]->getStateKey(), true));
           }
         }
       }
