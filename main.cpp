@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stack>
+#include <limits.h>
 
 using namespace std;
 
@@ -99,8 +100,8 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
   gameState * s = new gameState(init, goal);
 
   //initialize the explored map as empty
-  map<int, bool> explored;
-  map<int, bool> frontierMap;
+  map<string, bool> explored;
+  map<string, bool> frontierMap;
   
   //initialize the frontier with the initial state
   queue<gameState *> frontier;
@@ -113,7 +114,7 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
     }
     else {
       s = frontier.front();
-      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon()) {
         printOutput(s, expanded, output_file);
@@ -128,7 +129,7 @@ gameState * bfsSearch(struct state init, struct state goal, char * output_file) 
         else {
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
+            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
           }
         }
       }
@@ -142,8 +143,8 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
   gameState * s = new gameState(init, goal);
 
   //initialize the explored map as empty
-  map<int, bool> explored;
-  map<int, bool> frontierMap;
+  map<string, bool> explored;
+  map<string, bool> frontierMap;
   
   //initialize the frontier with the initial state
   stack<gameState *> frontier;
@@ -158,7 +159,7 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
     }
     else {
       s = frontier.top();
-      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon()) {
         printOutput(s, expanded, output_file);
@@ -173,7 +174,7 @@ gameState * dfsSearch(struct state init, struct state goal, char * output_file) 
         else {
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
+            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
           }
         }
       }
@@ -188,10 +189,9 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
 
   int expanded = 0;
   for (int depth = 0; depth < INT_MAX; depth++) {
-    cout << "Evaluating at depth " << depth << endl;
     //initialize the explored map as empty
-    map<int, bool> explored;
-    map<int, bool> frontierMap;
+    map<string, bool> explored;
+    map<string, bool> frontierMap;
     
     //initialize the frontier with the initial state
     stack<gameState *> frontier;
@@ -205,7 +205,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
       }
       else {
         s = frontier.top();
-        explored.insert(pair<int, bool>(s->getStateKey(), true));
+        explored.insert(pair<string, bool>(s->getStateKey(), true));
         frontier.pop();
         if (s->isWon()) {
           printOutput(s, expanded, output_file);
@@ -223,7 +223,7 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
           else {
             if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
               frontier.push(children[i]);
-              frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
+              frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
             }
           }
         }
@@ -247,8 +247,8 @@ gameState * astarSearch(struct state init, struct state goal, char * output_file
   // }
 
   //initialize the explored map as empty
-  map<int, bool> explored;
-  map<int, bool> frontierMap;
+  map<string, bool> explored;
+  map<string, bool> frontierMap;
   
   //initialize the frontier with the initial state
   priority_queue<gameState *> frontier;
@@ -261,7 +261,7 @@ gameState * astarSearch(struct state init, struct state goal, char * output_file
     }
     else {
       s = frontier.top();
-      explored.insert(pair<int, bool>(s->getStateKey(), true));
+      explored.insert(pair<string, bool>(s->getStateKey(), true));
       frontier.pop();
       if (s->isWon()) {
         printOutput(s, expanded, output_file);
@@ -276,7 +276,7 @@ gameState * astarSearch(struct state init, struct state goal, char * output_file
         else {
           if (explored.find(children[i]->getStateKey()) == explored.end() && frontierMap.find(children[i]->getStateKey()) == frontierMap.end()) {
             frontier.push(children[i]);
-            frontierMap.insert(pair<int, bool>(s->getStateKey(), true));
+            frontierMap.insert(pair<string, bool>(s->getStateKey(), true));
           }
         }
       }

@@ -1,39 +1,2331 @@
 Left Bank: 0 Chickens, 0 Wolves, 0 Boat
-Right Bank: 3 Chickens, 3 Wolves, 1 Boat
+Right Bank: 100 Chickens, 97 Wolves, 1 Boat
 
-Left Bank: 0 Chickens, 2 Wolves, 1 Boat
-Right Bank: 3 Chickens, 1 Wolves, 0 Boat
+Left Bank: 1 Chickens, 1 Wolves, 1 Boat
+Right Bank: 99 Chickens, 96 Wolves, 0 Boat
 
-Left Bank: 0 Chickens, 1 Wolves, 0 Boat
-Right Bank: 3 Chickens, 2 Wolves, 1 Boat
+Left Bank: 1 Chickens, 0 Wolves, 0 Boat
+Right Bank: 99 Chickens, 97 Wolves, 1 Boat
 
-Left Bank: 0 Chickens, 3 Wolves, 1 Boat
-Right Bank: 3 Chickens, 0 Wolves, 0 Boat
-
-Left Bank: 0 Chickens, 2 Wolves, 0 Boat
-Right Bank: 3 Chickens, 1 Wolves, 1 Boat
-
-Left Bank: 2 Chickens, 2 Wolves, 1 Boat
-Right Bank: 1 Chickens, 1 Wolves, 0 Boat
+Left Bank: 2 Chickens, 1 Wolves, 1 Boat
+Right Bank: 98 Chickens, 96 Wolves, 0 Boat
 
 Left Bank: 1 Chickens, 1 Wolves, 0 Boat
-Right Bank: 2 Chickens, 2 Wolves, 1 Boat
+Right Bank: 99 Chickens, 96 Wolves, 1 Boat
 
 Left Bank: 3 Chickens, 1 Wolves, 1 Boat
-Right Bank: 0 Chickens, 2 Wolves, 0 Boat
+Right Bank: 97 Chickens, 96 Wolves, 0 Boat
+
+Left Bank: 2 Chickens, 0 Wolves, 0 Boat
+Right Bank: 98 Chickens, 97 Wolves, 1 Boat
+
+Left Bank: 2 Chickens, 2 Wolves, 1 Boat
+Right Bank: 98 Chickens, 95 Wolves, 0 Boat
+
+Left Bank: 2 Chickens, 1 Wolves, 0 Boat
+Right Bank: 98 Chickens, 96 Wolves, 1 Boat
+
+Left Bank: 4 Chickens, 1 Wolves, 1 Boat
+Right Bank: 96 Chickens, 96 Wolves, 0 Boat
 
 Left Bank: 3 Chickens, 0 Wolves, 0 Boat
-Right Bank: 0 Chickens, 3 Wolves, 1 Boat
+Right Bank: 97 Chickens, 97 Wolves, 1 Boat
 
 Left Bank: 3 Chickens, 2 Wolves, 1 Boat
-Right Bank: 0 Chickens, 1 Wolves, 0 Boat
+Right Bank: 97 Chickens, 95 Wolves, 0 Boat
+
+Left Bank: 2 Chickens, 2 Wolves, 0 Boat
+Right Bank: 98 Chickens, 95 Wolves, 1 Boat
+
+Left Bank: 4 Chickens, 2 Wolves, 1 Boat
+Right Bank: 96 Chickens, 95 Wolves, 0 Boat
 
 Left Bank: 3 Chickens, 1 Wolves, 0 Boat
-Right Bank: 0 Chickens, 2 Wolves, 1 Boat
+Right Bank: 97 Chickens, 96 Wolves, 1 Boat
 
 Left Bank: 3 Chickens, 3 Wolves, 1 Boat
+Right Bank: 97 Chickens, 94 Wolves, 0 Boat
+
+Left Bank: 3 Chickens, 2 Wolves, 0 Boat
+Right Bank: 97 Chickens, 95 Wolves, 1 Boat
+
+Left Bank: 5 Chickens, 2 Wolves, 1 Boat
+Right Bank: 95 Chickens, 95 Wolves, 0 Boat
+
+Left Bank: 4 Chickens, 1 Wolves, 0 Boat
+Right Bank: 96 Chickens, 96 Wolves, 1 Boat
+
+Left Bank: 4 Chickens, 3 Wolves, 1 Boat
+Right Bank: 96 Chickens, 94 Wolves, 0 Boat
+
+Left Bank: 3 Chickens, 3 Wolves, 0 Boat
+Right Bank: 97 Chickens, 94 Wolves, 1 Boat
+
+Left Bank: 5 Chickens, 3 Wolves, 1 Boat
+Right Bank: 95 Chickens, 94 Wolves, 0 Boat
+
+Left Bank: 4 Chickens, 2 Wolves, 0 Boat
+Right Bank: 96 Chickens, 95 Wolves, 1 Boat
+
+Left Bank: 4 Chickens, 4 Wolves, 1 Boat
+Right Bank: 96 Chickens, 93 Wolves, 0 Boat
+
+Left Bank: 4 Chickens, 3 Wolves, 0 Boat
+Right Bank: 96 Chickens, 94 Wolves, 1 Boat
+
+Left Bank: 6 Chickens, 3 Wolves, 1 Boat
+Right Bank: 94 Chickens, 94 Wolves, 0 Boat
+
+Left Bank: 5 Chickens, 2 Wolves, 0 Boat
+Right Bank: 95 Chickens, 95 Wolves, 1 Boat
+
+Left Bank: 5 Chickens, 4 Wolves, 1 Boat
+Right Bank: 95 Chickens, 93 Wolves, 0 Boat
+
+Left Bank: 4 Chickens, 4 Wolves, 0 Boat
+Right Bank: 96 Chickens, 93 Wolves, 1 Boat
+
+Left Bank: 6 Chickens, 4 Wolves, 1 Boat
+Right Bank: 94 Chickens, 93 Wolves, 0 Boat
+
+Left Bank: 5 Chickens, 3 Wolves, 0 Boat
+Right Bank: 95 Chickens, 94 Wolves, 1 Boat
+
+Left Bank: 5 Chickens, 5 Wolves, 1 Boat
+Right Bank: 95 Chickens, 92 Wolves, 0 Boat
+
+Left Bank: 5 Chickens, 4 Wolves, 0 Boat
+Right Bank: 95 Chickens, 93 Wolves, 1 Boat
+
+Left Bank: 7 Chickens, 4 Wolves, 1 Boat
+Right Bank: 93 Chickens, 93 Wolves, 0 Boat
+
+Left Bank: 6 Chickens, 3 Wolves, 0 Boat
+Right Bank: 94 Chickens, 94 Wolves, 1 Boat
+
+Left Bank: 6 Chickens, 5 Wolves, 1 Boat
+Right Bank: 94 Chickens, 92 Wolves, 0 Boat
+
+Left Bank: 5 Chickens, 5 Wolves, 0 Boat
+Right Bank: 95 Chickens, 92 Wolves, 1 Boat
+
+Left Bank: 7 Chickens, 5 Wolves, 1 Boat
+Right Bank: 93 Chickens, 92 Wolves, 0 Boat
+
+Left Bank: 6 Chickens, 4 Wolves, 0 Boat
+Right Bank: 94 Chickens, 93 Wolves, 1 Boat
+
+Left Bank: 6 Chickens, 6 Wolves, 1 Boat
+Right Bank: 94 Chickens, 91 Wolves, 0 Boat
+
+Left Bank: 6 Chickens, 5 Wolves, 0 Boat
+Right Bank: 94 Chickens, 92 Wolves, 1 Boat
+
+Left Bank: 8 Chickens, 5 Wolves, 1 Boat
+Right Bank: 92 Chickens, 92 Wolves, 0 Boat
+
+Left Bank: 7 Chickens, 4 Wolves, 0 Boat
+Right Bank: 93 Chickens, 93 Wolves, 1 Boat
+
+Left Bank: 7 Chickens, 6 Wolves, 1 Boat
+Right Bank: 93 Chickens, 91 Wolves, 0 Boat
+
+Left Bank: 6 Chickens, 6 Wolves, 0 Boat
+Right Bank: 94 Chickens, 91 Wolves, 1 Boat
+
+Left Bank: 8 Chickens, 6 Wolves, 1 Boat
+Right Bank: 92 Chickens, 91 Wolves, 0 Boat
+
+Left Bank: 7 Chickens, 5 Wolves, 0 Boat
+Right Bank: 93 Chickens, 92 Wolves, 1 Boat
+
+Left Bank: 7 Chickens, 7 Wolves, 1 Boat
+Right Bank: 93 Chickens, 90 Wolves, 0 Boat
+
+Left Bank: 7 Chickens, 6 Wolves, 0 Boat
+Right Bank: 93 Chickens, 91 Wolves, 1 Boat
+
+Left Bank: 9 Chickens, 6 Wolves, 1 Boat
+Right Bank: 91 Chickens, 91 Wolves, 0 Boat
+
+Left Bank: 8 Chickens, 5 Wolves, 0 Boat
+Right Bank: 92 Chickens, 92 Wolves, 1 Boat
+
+Left Bank: 8 Chickens, 7 Wolves, 1 Boat
+Right Bank: 92 Chickens, 90 Wolves, 0 Boat
+
+Left Bank: 7 Chickens, 7 Wolves, 0 Boat
+Right Bank: 93 Chickens, 90 Wolves, 1 Boat
+
+Left Bank: 9 Chickens, 7 Wolves, 1 Boat
+Right Bank: 91 Chickens, 90 Wolves, 0 Boat
+
+Left Bank: 8 Chickens, 6 Wolves, 0 Boat
+Right Bank: 92 Chickens, 91 Wolves, 1 Boat
+
+Left Bank: 8 Chickens, 8 Wolves, 1 Boat
+Right Bank: 92 Chickens, 89 Wolves, 0 Boat
+
+Left Bank: 8 Chickens, 7 Wolves, 0 Boat
+Right Bank: 92 Chickens, 90 Wolves, 1 Boat
+
+Left Bank: 10 Chickens, 7 Wolves, 1 Boat
+Right Bank: 90 Chickens, 90 Wolves, 0 Boat
+
+Left Bank: 9 Chickens, 6 Wolves, 0 Boat
+Right Bank: 91 Chickens, 91 Wolves, 1 Boat
+
+Left Bank: 9 Chickens, 8 Wolves, 1 Boat
+Right Bank: 91 Chickens, 89 Wolves, 0 Boat
+
+Left Bank: 8 Chickens, 8 Wolves, 0 Boat
+Right Bank: 92 Chickens, 89 Wolves, 1 Boat
+
+Left Bank: 10 Chickens, 8 Wolves, 1 Boat
+Right Bank: 90 Chickens, 89 Wolves, 0 Boat
+
+Left Bank: 9 Chickens, 7 Wolves, 0 Boat
+Right Bank: 91 Chickens, 90 Wolves, 1 Boat
+
+Left Bank: 9 Chickens, 9 Wolves, 1 Boat
+Right Bank: 91 Chickens, 88 Wolves, 0 Boat
+
+Left Bank: 9 Chickens, 8 Wolves, 0 Boat
+Right Bank: 91 Chickens, 89 Wolves, 1 Boat
+
+Left Bank: 11 Chickens, 8 Wolves, 1 Boat
+Right Bank: 89 Chickens, 89 Wolves, 0 Boat
+
+Left Bank: 10 Chickens, 7 Wolves, 0 Boat
+Right Bank: 90 Chickens, 90 Wolves, 1 Boat
+
+Left Bank: 10 Chickens, 9 Wolves, 1 Boat
+Right Bank: 90 Chickens, 88 Wolves, 0 Boat
+
+Left Bank: 9 Chickens, 9 Wolves, 0 Boat
+Right Bank: 91 Chickens, 88 Wolves, 1 Boat
+
+Left Bank: 11 Chickens, 9 Wolves, 1 Boat
+Right Bank: 89 Chickens, 88 Wolves, 0 Boat
+
+Left Bank: 10 Chickens, 8 Wolves, 0 Boat
+Right Bank: 90 Chickens, 89 Wolves, 1 Boat
+
+Left Bank: 10 Chickens, 10 Wolves, 1 Boat
+Right Bank: 90 Chickens, 87 Wolves, 0 Boat
+
+Left Bank: 10 Chickens, 9 Wolves, 0 Boat
+Right Bank: 90 Chickens, 88 Wolves, 1 Boat
+
+Left Bank: 12 Chickens, 9 Wolves, 1 Boat
+Right Bank: 88 Chickens, 88 Wolves, 0 Boat
+
+Left Bank: 11 Chickens, 8 Wolves, 0 Boat
+Right Bank: 89 Chickens, 89 Wolves, 1 Boat
+
+Left Bank: 11 Chickens, 10 Wolves, 1 Boat
+Right Bank: 89 Chickens, 87 Wolves, 0 Boat
+
+Left Bank: 10 Chickens, 10 Wolves, 0 Boat
+Right Bank: 90 Chickens, 87 Wolves, 1 Boat
+
+Left Bank: 12 Chickens, 10 Wolves, 1 Boat
+Right Bank: 88 Chickens, 87 Wolves, 0 Boat
+
+Left Bank: 11 Chickens, 9 Wolves, 0 Boat
+Right Bank: 89 Chickens, 88 Wolves, 1 Boat
+
+Left Bank: 11 Chickens, 11 Wolves, 1 Boat
+Right Bank: 89 Chickens, 86 Wolves, 0 Boat
+
+Left Bank: 11 Chickens, 10 Wolves, 0 Boat
+Right Bank: 89 Chickens, 87 Wolves, 1 Boat
+
+Left Bank: 13 Chickens, 10 Wolves, 1 Boat
+Right Bank: 87 Chickens, 87 Wolves, 0 Boat
+
+Left Bank: 12 Chickens, 9 Wolves, 0 Boat
+Right Bank: 88 Chickens, 88 Wolves, 1 Boat
+
+Left Bank: 12 Chickens, 11 Wolves, 1 Boat
+Right Bank: 88 Chickens, 86 Wolves, 0 Boat
+
+Left Bank: 11 Chickens, 11 Wolves, 0 Boat
+Right Bank: 89 Chickens, 86 Wolves, 1 Boat
+
+Left Bank: 13 Chickens, 11 Wolves, 1 Boat
+Right Bank: 87 Chickens, 86 Wolves, 0 Boat
+
+Left Bank: 12 Chickens, 10 Wolves, 0 Boat
+Right Bank: 88 Chickens, 87 Wolves, 1 Boat
+
+Left Bank: 12 Chickens, 12 Wolves, 1 Boat
+Right Bank: 88 Chickens, 85 Wolves, 0 Boat
+
+Left Bank: 12 Chickens, 11 Wolves, 0 Boat
+Right Bank: 88 Chickens, 86 Wolves, 1 Boat
+
+Left Bank: 14 Chickens, 11 Wolves, 1 Boat
+Right Bank: 86 Chickens, 86 Wolves, 0 Boat
+
+Left Bank: 13 Chickens, 10 Wolves, 0 Boat
+Right Bank: 87 Chickens, 87 Wolves, 1 Boat
+
+Left Bank: 13 Chickens, 12 Wolves, 1 Boat
+Right Bank: 87 Chickens, 85 Wolves, 0 Boat
+
+Left Bank: 12 Chickens, 12 Wolves, 0 Boat
+Right Bank: 88 Chickens, 85 Wolves, 1 Boat
+
+Left Bank: 14 Chickens, 12 Wolves, 1 Boat
+Right Bank: 86 Chickens, 85 Wolves, 0 Boat
+
+Left Bank: 13 Chickens, 11 Wolves, 0 Boat
+Right Bank: 87 Chickens, 86 Wolves, 1 Boat
+
+Left Bank: 13 Chickens, 13 Wolves, 1 Boat
+Right Bank: 87 Chickens, 84 Wolves, 0 Boat
+
+Left Bank: 13 Chickens, 12 Wolves, 0 Boat
+Right Bank: 87 Chickens, 85 Wolves, 1 Boat
+
+Left Bank: 15 Chickens, 12 Wolves, 1 Boat
+Right Bank: 85 Chickens, 85 Wolves, 0 Boat
+
+Left Bank: 14 Chickens, 11 Wolves, 0 Boat
+Right Bank: 86 Chickens, 86 Wolves, 1 Boat
+
+Left Bank: 14 Chickens, 13 Wolves, 1 Boat
+Right Bank: 86 Chickens, 84 Wolves, 0 Boat
+
+Left Bank: 13 Chickens, 13 Wolves, 0 Boat
+Right Bank: 87 Chickens, 84 Wolves, 1 Boat
+
+Left Bank: 15 Chickens, 13 Wolves, 1 Boat
+Right Bank: 85 Chickens, 84 Wolves, 0 Boat
+
+Left Bank: 14 Chickens, 12 Wolves, 0 Boat
+Right Bank: 86 Chickens, 85 Wolves, 1 Boat
+
+Left Bank: 14 Chickens, 14 Wolves, 1 Boat
+Right Bank: 86 Chickens, 83 Wolves, 0 Boat
+
+Left Bank: 14 Chickens, 13 Wolves, 0 Boat
+Right Bank: 86 Chickens, 84 Wolves, 1 Boat
+
+Left Bank: 16 Chickens, 13 Wolves, 1 Boat
+Right Bank: 84 Chickens, 84 Wolves, 0 Boat
+
+Left Bank: 15 Chickens, 12 Wolves, 0 Boat
+Right Bank: 85 Chickens, 85 Wolves, 1 Boat
+
+Left Bank: 15 Chickens, 14 Wolves, 1 Boat
+Right Bank: 85 Chickens, 83 Wolves, 0 Boat
+
+Left Bank: 14 Chickens, 14 Wolves, 0 Boat
+Right Bank: 86 Chickens, 83 Wolves, 1 Boat
+
+Left Bank: 16 Chickens, 14 Wolves, 1 Boat
+Right Bank: 84 Chickens, 83 Wolves, 0 Boat
+
+Left Bank: 15 Chickens, 13 Wolves, 0 Boat
+Right Bank: 85 Chickens, 84 Wolves, 1 Boat
+
+Left Bank: 15 Chickens, 15 Wolves, 1 Boat
+Right Bank: 85 Chickens, 82 Wolves, 0 Boat
+
+Left Bank: 15 Chickens, 14 Wolves, 0 Boat
+Right Bank: 85 Chickens, 83 Wolves, 1 Boat
+
+Left Bank: 17 Chickens, 14 Wolves, 1 Boat
+Right Bank: 83 Chickens, 83 Wolves, 0 Boat
+
+Left Bank: 16 Chickens, 13 Wolves, 0 Boat
+Right Bank: 84 Chickens, 84 Wolves, 1 Boat
+
+Left Bank: 16 Chickens, 15 Wolves, 1 Boat
+Right Bank: 84 Chickens, 82 Wolves, 0 Boat
+
+Left Bank: 15 Chickens, 15 Wolves, 0 Boat
+Right Bank: 85 Chickens, 82 Wolves, 1 Boat
+
+Left Bank: 17 Chickens, 15 Wolves, 1 Boat
+Right Bank: 83 Chickens, 82 Wolves, 0 Boat
+
+Left Bank: 16 Chickens, 14 Wolves, 0 Boat
+Right Bank: 84 Chickens, 83 Wolves, 1 Boat
+
+Left Bank: 16 Chickens, 16 Wolves, 1 Boat
+Right Bank: 84 Chickens, 81 Wolves, 0 Boat
+
+Left Bank: 16 Chickens, 15 Wolves, 0 Boat
+Right Bank: 84 Chickens, 82 Wolves, 1 Boat
+
+Left Bank: 18 Chickens, 15 Wolves, 1 Boat
+Right Bank: 82 Chickens, 82 Wolves, 0 Boat
+
+Left Bank: 17 Chickens, 14 Wolves, 0 Boat
+Right Bank: 83 Chickens, 83 Wolves, 1 Boat
+
+Left Bank: 17 Chickens, 16 Wolves, 1 Boat
+Right Bank: 83 Chickens, 81 Wolves, 0 Boat
+
+Left Bank: 16 Chickens, 16 Wolves, 0 Boat
+Right Bank: 84 Chickens, 81 Wolves, 1 Boat
+
+Left Bank: 18 Chickens, 16 Wolves, 1 Boat
+Right Bank: 82 Chickens, 81 Wolves, 0 Boat
+
+Left Bank: 17 Chickens, 15 Wolves, 0 Boat
+Right Bank: 83 Chickens, 82 Wolves, 1 Boat
+
+Left Bank: 17 Chickens, 17 Wolves, 1 Boat
+Right Bank: 83 Chickens, 80 Wolves, 0 Boat
+
+Left Bank: 17 Chickens, 16 Wolves, 0 Boat
+Right Bank: 83 Chickens, 81 Wolves, 1 Boat
+
+Left Bank: 19 Chickens, 16 Wolves, 1 Boat
+Right Bank: 81 Chickens, 81 Wolves, 0 Boat
+
+Left Bank: 18 Chickens, 15 Wolves, 0 Boat
+Right Bank: 82 Chickens, 82 Wolves, 1 Boat
+
+Left Bank: 18 Chickens, 17 Wolves, 1 Boat
+Right Bank: 82 Chickens, 80 Wolves, 0 Boat
+
+Left Bank: 17 Chickens, 17 Wolves, 0 Boat
+Right Bank: 83 Chickens, 80 Wolves, 1 Boat
+
+Left Bank: 19 Chickens, 17 Wolves, 1 Boat
+Right Bank: 81 Chickens, 80 Wolves, 0 Boat
+
+Left Bank: 18 Chickens, 16 Wolves, 0 Boat
+Right Bank: 82 Chickens, 81 Wolves, 1 Boat
+
+Left Bank: 18 Chickens, 18 Wolves, 1 Boat
+Right Bank: 82 Chickens, 79 Wolves, 0 Boat
+
+Left Bank: 18 Chickens, 17 Wolves, 0 Boat
+Right Bank: 82 Chickens, 80 Wolves, 1 Boat
+
+Left Bank: 20 Chickens, 17 Wolves, 1 Boat
+Right Bank: 80 Chickens, 80 Wolves, 0 Boat
+
+Left Bank: 19 Chickens, 16 Wolves, 0 Boat
+Right Bank: 81 Chickens, 81 Wolves, 1 Boat
+
+Left Bank: 19 Chickens, 18 Wolves, 1 Boat
+Right Bank: 81 Chickens, 79 Wolves, 0 Boat
+
+Left Bank: 18 Chickens, 18 Wolves, 0 Boat
+Right Bank: 82 Chickens, 79 Wolves, 1 Boat
+
+Left Bank: 20 Chickens, 18 Wolves, 1 Boat
+Right Bank: 80 Chickens, 79 Wolves, 0 Boat
+
+Left Bank: 19 Chickens, 17 Wolves, 0 Boat
+Right Bank: 81 Chickens, 80 Wolves, 1 Boat
+
+Left Bank: 19 Chickens, 19 Wolves, 1 Boat
+Right Bank: 81 Chickens, 78 Wolves, 0 Boat
+
+Left Bank: 19 Chickens, 18 Wolves, 0 Boat
+Right Bank: 81 Chickens, 79 Wolves, 1 Boat
+
+Left Bank: 21 Chickens, 18 Wolves, 1 Boat
+Right Bank: 79 Chickens, 79 Wolves, 0 Boat
+
+Left Bank: 20 Chickens, 17 Wolves, 0 Boat
+Right Bank: 80 Chickens, 80 Wolves, 1 Boat
+
+Left Bank: 20 Chickens, 19 Wolves, 1 Boat
+Right Bank: 80 Chickens, 78 Wolves, 0 Boat
+
+Left Bank: 19 Chickens, 19 Wolves, 0 Boat
+Right Bank: 81 Chickens, 78 Wolves, 1 Boat
+
+Left Bank: 21 Chickens, 19 Wolves, 1 Boat
+Right Bank: 79 Chickens, 78 Wolves, 0 Boat
+
+Left Bank: 20 Chickens, 18 Wolves, 0 Boat
+Right Bank: 80 Chickens, 79 Wolves, 1 Boat
+
+Left Bank: 20 Chickens, 20 Wolves, 1 Boat
+Right Bank: 80 Chickens, 77 Wolves, 0 Boat
+
+Left Bank: 20 Chickens, 19 Wolves, 0 Boat
+Right Bank: 80 Chickens, 78 Wolves, 1 Boat
+
+Left Bank: 22 Chickens, 19 Wolves, 1 Boat
+Right Bank: 78 Chickens, 78 Wolves, 0 Boat
+
+Left Bank: 21 Chickens, 18 Wolves, 0 Boat
+Right Bank: 79 Chickens, 79 Wolves, 1 Boat
+
+Left Bank: 21 Chickens, 20 Wolves, 1 Boat
+Right Bank: 79 Chickens, 77 Wolves, 0 Boat
+
+Left Bank: 20 Chickens, 20 Wolves, 0 Boat
+Right Bank: 80 Chickens, 77 Wolves, 1 Boat
+
+Left Bank: 22 Chickens, 20 Wolves, 1 Boat
+Right Bank: 78 Chickens, 77 Wolves, 0 Boat
+
+Left Bank: 21 Chickens, 19 Wolves, 0 Boat
+Right Bank: 79 Chickens, 78 Wolves, 1 Boat
+
+Left Bank: 21 Chickens, 21 Wolves, 1 Boat
+Right Bank: 79 Chickens, 76 Wolves, 0 Boat
+
+Left Bank: 21 Chickens, 20 Wolves, 0 Boat
+Right Bank: 79 Chickens, 77 Wolves, 1 Boat
+
+Left Bank: 23 Chickens, 20 Wolves, 1 Boat
+Right Bank: 77 Chickens, 77 Wolves, 0 Boat
+
+Left Bank: 22 Chickens, 19 Wolves, 0 Boat
+Right Bank: 78 Chickens, 78 Wolves, 1 Boat
+
+Left Bank: 22 Chickens, 21 Wolves, 1 Boat
+Right Bank: 78 Chickens, 76 Wolves, 0 Boat
+
+Left Bank: 21 Chickens, 21 Wolves, 0 Boat
+Right Bank: 79 Chickens, 76 Wolves, 1 Boat
+
+Left Bank: 23 Chickens, 21 Wolves, 1 Boat
+Right Bank: 77 Chickens, 76 Wolves, 0 Boat
+
+Left Bank: 22 Chickens, 20 Wolves, 0 Boat
+Right Bank: 78 Chickens, 77 Wolves, 1 Boat
+
+Left Bank: 22 Chickens, 22 Wolves, 1 Boat
+Right Bank: 78 Chickens, 75 Wolves, 0 Boat
+
+Left Bank: 22 Chickens, 21 Wolves, 0 Boat
+Right Bank: 78 Chickens, 76 Wolves, 1 Boat
+
+Left Bank: 24 Chickens, 21 Wolves, 1 Boat
+Right Bank: 76 Chickens, 76 Wolves, 0 Boat
+
+Left Bank: 23 Chickens, 20 Wolves, 0 Boat
+Right Bank: 77 Chickens, 77 Wolves, 1 Boat
+
+Left Bank: 23 Chickens, 22 Wolves, 1 Boat
+Right Bank: 77 Chickens, 75 Wolves, 0 Boat
+
+Left Bank: 22 Chickens, 22 Wolves, 0 Boat
+Right Bank: 78 Chickens, 75 Wolves, 1 Boat
+
+Left Bank: 24 Chickens, 22 Wolves, 1 Boat
+Right Bank: 76 Chickens, 75 Wolves, 0 Boat
+
+Left Bank: 23 Chickens, 21 Wolves, 0 Boat
+Right Bank: 77 Chickens, 76 Wolves, 1 Boat
+
+Left Bank: 23 Chickens, 23 Wolves, 1 Boat
+Right Bank: 77 Chickens, 74 Wolves, 0 Boat
+
+Left Bank: 23 Chickens, 22 Wolves, 0 Boat
+Right Bank: 77 Chickens, 75 Wolves, 1 Boat
+
+Left Bank: 25 Chickens, 22 Wolves, 1 Boat
+Right Bank: 75 Chickens, 75 Wolves, 0 Boat
+
+Left Bank: 24 Chickens, 21 Wolves, 0 Boat
+Right Bank: 76 Chickens, 76 Wolves, 1 Boat
+
+Left Bank: 24 Chickens, 23 Wolves, 1 Boat
+Right Bank: 76 Chickens, 74 Wolves, 0 Boat
+
+Left Bank: 23 Chickens, 23 Wolves, 0 Boat
+Right Bank: 77 Chickens, 74 Wolves, 1 Boat
+
+Left Bank: 25 Chickens, 23 Wolves, 1 Boat
+Right Bank: 75 Chickens, 74 Wolves, 0 Boat
+
+Left Bank: 24 Chickens, 22 Wolves, 0 Boat
+Right Bank: 76 Chickens, 75 Wolves, 1 Boat
+
+Left Bank: 24 Chickens, 24 Wolves, 1 Boat
+Right Bank: 76 Chickens, 73 Wolves, 0 Boat
+
+Left Bank: 24 Chickens, 23 Wolves, 0 Boat
+Right Bank: 76 Chickens, 74 Wolves, 1 Boat
+
+Left Bank: 26 Chickens, 23 Wolves, 1 Boat
+Right Bank: 74 Chickens, 74 Wolves, 0 Boat
+
+Left Bank: 25 Chickens, 22 Wolves, 0 Boat
+Right Bank: 75 Chickens, 75 Wolves, 1 Boat
+
+Left Bank: 25 Chickens, 24 Wolves, 1 Boat
+Right Bank: 75 Chickens, 73 Wolves, 0 Boat
+
+Left Bank: 24 Chickens, 24 Wolves, 0 Boat
+Right Bank: 76 Chickens, 73 Wolves, 1 Boat
+
+Left Bank: 26 Chickens, 24 Wolves, 1 Boat
+Right Bank: 74 Chickens, 73 Wolves, 0 Boat
+
+Left Bank: 25 Chickens, 23 Wolves, 0 Boat
+Right Bank: 75 Chickens, 74 Wolves, 1 Boat
+
+Left Bank: 25 Chickens, 25 Wolves, 1 Boat
+Right Bank: 75 Chickens, 72 Wolves, 0 Boat
+
+Left Bank: 25 Chickens, 24 Wolves, 0 Boat
+Right Bank: 75 Chickens, 73 Wolves, 1 Boat
+
+Left Bank: 27 Chickens, 24 Wolves, 1 Boat
+Right Bank: 73 Chickens, 73 Wolves, 0 Boat
+
+Left Bank: 26 Chickens, 23 Wolves, 0 Boat
+Right Bank: 74 Chickens, 74 Wolves, 1 Boat
+
+Left Bank: 26 Chickens, 25 Wolves, 1 Boat
+Right Bank: 74 Chickens, 72 Wolves, 0 Boat
+
+Left Bank: 25 Chickens, 25 Wolves, 0 Boat
+Right Bank: 75 Chickens, 72 Wolves, 1 Boat
+
+Left Bank: 27 Chickens, 25 Wolves, 1 Boat
+Right Bank: 73 Chickens, 72 Wolves, 0 Boat
+
+Left Bank: 26 Chickens, 24 Wolves, 0 Boat
+Right Bank: 74 Chickens, 73 Wolves, 1 Boat
+
+Left Bank: 26 Chickens, 26 Wolves, 1 Boat
+Right Bank: 74 Chickens, 71 Wolves, 0 Boat
+
+Left Bank: 26 Chickens, 25 Wolves, 0 Boat
+Right Bank: 74 Chickens, 72 Wolves, 1 Boat
+
+Left Bank: 28 Chickens, 25 Wolves, 1 Boat
+Right Bank: 72 Chickens, 72 Wolves, 0 Boat
+
+Left Bank: 27 Chickens, 24 Wolves, 0 Boat
+Right Bank: 73 Chickens, 73 Wolves, 1 Boat
+
+Left Bank: 27 Chickens, 26 Wolves, 1 Boat
+Right Bank: 73 Chickens, 71 Wolves, 0 Boat
+
+Left Bank: 26 Chickens, 26 Wolves, 0 Boat
+Right Bank: 74 Chickens, 71 Wolves, 1 Boat
+
+Left Bank: 28 Chickens, 26 Wolves, 1 Boat
+Right Bank: 72 Chickens, 71 Wolves, 0 Boat
+
+Left Bank: 27 Chickens, 25 Wolves, 0 Boat
+Right Bank: 73 Chickens, 72 Wolves, 1 Boat
+
+Left Bank: 27 Chickens, 27 Wolves, 1 Boat
+Right Bank: 73 Chickens, 70 Wolves, 0 Boat
+
+Left Bank: 27 Chickens, 26 Wolves, 0 Boat
+Right Bank: 73 Chickens, 71 Wolves, 1 Boat
+
+Left Bank: 29 Chickens, 26 Wolves, 1 Boat
+Right Bank: 71 Chickens, 71 Wolves, 0 Boat
+
+Left Bank: 28 Chickens, 25 Wolves, 0 Boat
+Right Bank: 72 Chickens, 72 Wolves, 1 Boat
+
+Left Bank: 28 Chickens, 27 Wolves, 1 Boat
+Right Bank: 72 Chickens, 70 Wolves, 0 Boat
+
+Left Bank: 27 Chickens, 27 Wolves, 0 Boat
+Right Bank: 73 Chickens, 70 Wolves, 1 Boat
+
+Left Bank: 29 Chickens, 27 Wolves, 1 Boat
+Right Bank: 71 Chickens, 70 Wolves, 0 Boat
+
+Left Bank: 28 Chickens, 26 Wolves, 0 Boat
+Right Bank: 72 Chickens, 71 Wolves, 1 Boat
+
+Left Bank: 28 Chickens, 28 Wolves, 1 Boat
+Right Bank: 72 Chickens, 69 Wolves, 0 Boat
+
+Left Bank: 28 Chickens, 27 Wolves, 0 Boat
+Right Bank: 72 Chickens, 70 Wolves, 1 Boat
+
+Left Bank: 30 Chickens, 27 Wolves, 1 Boat
+Right Bank: 70 Chickens, 70 Wolves, 0 Boat
+
+Left Bank: 29 Chickens, 26 Wolves, 0 Boat
+Right Bank: 71 Chickens, 71 Wolves, 1 Boat
+
+Left Bank: 29 Chickens, 28 Wolves, 1 Boat
+Right Bank: 71 Chickens, 69 Wolves, 0 Boat
+
+Left Bank: 28 Chickens, 28 Wolves, 0 Boat
+Right Bank: 72 Chickens, 69 Wolves, 1 Boat
+
+Left Bank: 30 Chickens, 28 Wolves, 1 Boat
+Right Bank: 70 Chickens, 69 Wolves, 0 Boat
+
+Left Bank: 29 Chickens, 27 Wolves, 0 Boat
+Right Bank: 71 Chickens, 70 Wolves, 1 Boat
+
+Left Bank: 29 Chickens, 29 Wolves, 1 Boat
+Right Bank: 71 Chickens, 68 Wolves, 0 Boat
+
+Left Bank: 29 Chickens, 28 Wolves, 0 Boat
+Right Bank: 71 Chickens, 69 Wolves, 1 Boat
+
+Left Bank: 31 Chickens, 28 Wolves, 1 Boat
+Right Bank: 69 Chickens, 69 Wolves, 0 Boat
+
+Left Bank: 30 Chickens, 27 Wolves, 0 Boat
+Right Bank: 70 Chickens, 70 Wolves, 1 Boat
+
+Left Bank: 30 Chickens, 29 Wolves, 1 Boat
+Right Bank: 70 Chickens, 68 Wolves, 0 Boat
+
+Left Bank: 29 Chickens, 29 Wolves, 0 Boat
+Right Bank: 71 Chickens, 68 Wolves, 1 Boat
+
+Left Bank: 31 Chickens, 29 Wolves, 1 Boat
+Right Bank: 69 Chickens, 68 Wolves, 0 Boat
+
+Left Bank: 30 Chickens, 28 Wolves, 0 Boat
+Right Bank: 70 Chickens, 69 Wolves, 1 Boat
+
+Left Bank: 30 Chickens, 30 Wolves, 1 Boat
+Right Bank: 70 Chickens, 67 Wolves, 0 Boat
+
+Left Bank: 30 Chickens, 29 Wolves, 0 Boat
+Right Bank: 70 Chickens, 68 Wolves, 1 Boat
+
+Left Bank: 32 Chickens, 29 Wolves, 1 Boat
+Right Bank: 68 Chickens, 68 Wolves, 0 Boat
+
+Left Bank: 31 Chickens, 28 Wolves, 0 Boat
+Right Bank: 69 Chickens, 69 Wolves, 1 Boat
+
+Left Bank: 31 Chickens, 30 Wolves, 1 Boat
+Right Bank: 69 Chickens, 67 Wolves, 0 Boat
+
+Left Bank: 30 Chickens, 30 Wolves, 0 Boat
+Right Bank: 70 Chickens, 67 Wolves, 1 Boat
+
+Left Bank: 32 Chickens, 30 Wolves, 1 Boat
+Right Bank: 68 Chickens, 67 Wolves, 0 Boat
+
+Left Bank: 31 Chickens, 29 Wolves, 0 Boat
+Right Bank: 69 Chickens, 68 Wolves, 1 Boat
+
+Left Bank: 31 Chickens, 31 Wolves, 1 Boat
+Right Bank: 69 Chickens, 66 Wolves, 0 Boat
+
+Left Bank: 31 Chickens, 30 Wolves, 0 Boat
+Right Bank: 69 Chickens, 67 Wolves, 1 Boat
+
+Left Bank: 33 Chickens, 30 Wolves, 1 Boat
+Right Bank: 67 Chickens, 67 Wolves, 0 Boat
+
+Left Bank: 32 Chickens, 29 Wolves, 0 Boat
+Right Bank: 68 Chickens, 68 Wolves, 1 Boat
+
+Left Bank: 32 Chickens, 31 Wolves, 1 Boat
+Right Bank: 68 Chickens, 66 Wolves, 0 Boat
+
+Left Bank: 31 Chickens, 31 Wolves, 0 Boat
+Right Bank: 69 Chickens, 66 Wolves, 1 Boat
+
+Left Bank: 33 Chickens, 31 Wolves, 1 Boat
+Right Bank: 67 Chickens, 66 Wolves, 0 Boat
+
+Left Bank: 32 Chickens, 30 Wolves, 0 Boat
+Right Bank: 68 Chickens, 67 Wolves, 1 Boat
+
+Left Bank: 32 Chickens, 32 Wolves, 1 Boat
+Right Bank: 68 Chickens, 65 Wolves, 0 Boat
+
+Left Bank: 32 Chickens, 31 Wolves, 0 Boat
+Right Bank: 68 Chickens, 66 Wolves, 1 Boat
+
+Left Bank: 34 Chickens, 31 Wolves, 1 Boat
+Right Bank: 66 Chickens, 66 Wolves, 0 Boat
+
+Left Bank: 33 Chickens, 30 Wolves, 0 Boat
+Right Bank: 67 Chickens, 67 Wolves, 1 Boat
+
+Left Bank: 33 Chickens, 32 Wolves, 1 Boat
+Right Bank: 67 Chickens, 65 Wolves, 0 Boat
+
+Left Bank: 32 Chickens, 32 Wolves, 0 Boat
+Right Bank: 68 Chickens, 65 Wolves, 1 Boat
+
+Left Bank: 34 Chickens, 32 Wolves, 1 Boat
+Right Bank: 66 Chickens, 65 Wolves, 0 Boat
+
+Left Bank: 33 Chickens, 31 Wolves, 0 Boat
+Right Bank: 67 Chickens, 66 Wolves, 1 Boat
+
+Left Bank: 33 Chickens, 33 Wolves, 1 Boat
+Right Bank: 67 Chickens, 64 Wolves, 0 Boat
+
+Left Bank: 33 Chickens, 32 Wolves, 0 Boat
+Right Bank: 67 Chickens, 65 Wolves, 1 Boat
+
+Left Bank: 35 Chickens, 32 Wolves, 1 Boat
+Right Bank: 65 Chickens, 65 Wolves, 0 Boat
+
+Left Bank: 34 Chickens, 31 Wolves, 0 Boat
+Right Bank: 66 Chickens, 66 Wolves, 1 Boat
+
+Left Bank: 34 Chickens, 33 Wolves, 1 Boat
+Right Bank: 66 Chickens, 64 Wolves, 0 Boat
+
+Left Bank: 33 Chickens, 33 Wolves, 0 Boat
+Right Bank: 67 Chickens, 64 Wolves, 1 Boat
+
+Left Bank: 35 Chickens, 33 Wolves, 1 Boat
+Right Bank: 65 Chickens, 64 Wolves, 0 Boat
+
+Left Bank: 34 Chickens, 32 Wolves, 0 Boat
+Right Bank: 66 Chickens, 65 Wolves, 1 Boat
+
+Left Bank: 34 Chickens, 34 Wolves, 1 Boat
+Right Bank: 66 Chickens, 63 Wolves, 0 Boat
+
+Left Bank: 34 Chickens, 33 Wolves, 0 Boat
+Right Bank: 66 Chickens, 64 Wolves, 1 Boat
+
+Left Bank: 36 Chickens, 33 Wolves, 1 Boat
+Right Bank: 64 Chickens, 64 Wolves, 0 Boat
+
+Left Bank: 35 Chickens, 32 Wolves, 0 Boat
+Right Bank: 65 Chickens, 65 Wolves, 1 Boat
+
+Left Bank: 35 Chickens, 34 Wolves, 1 Boat
+Right Bank: 65 Chickens, 63 Wolves, 0 Boat
+
+Left Bank: 34 Chickens, 34 Wolves, 0 Boat
+Right Bank: 66 Chickens, 63 Wolves, 1 Boat
+
+Left Bank: 36 Chickens, 34 Wolves, 1 Boat
+Right Bank: 64 Chickens, 63 Wolves, 0 Boat
+
+Left Bank: 35 Chickens, 33 Wolves, 0 Boat
+Right Bank: 65 Chickens, 64 Wolves, 1 Boat
+
+Left Bank: 35 Chickens, 35 Wolves, 1 Boat
+Right Bank: 65 Chickens, 62 Wolves, 0 Boat
+
+Left Bank: 35 Chickens, 34 Wolves, 0 Boat
+Right Bank: 65 Chickens, 63 Wolves, 1 Boat
+
+Left Bank: 37 Chickens, 34 Wolves, 1 Boat
+Right Bank: 63 Chickens, 63 Wolves, 0 Boat
+
+Left Bank: 36 Chickens, 33 Wolves, 0 Boat
+Right Bank: 64 Chickens, 64 Wolves, 1 Boat
+
+Left Bank: 36 Chickens, 35 Wolves, 1 Boat
+Right Bank: 64 Chickens, 62 Wolves, 0 Boat
+
+Left Bank: 35 Chickens, 35 Wolves, 0 Boat
+Right Bank: 65 Chickens, 62 Wolves, 1 Boat
+
+Left Bank: 37 Chickens, 35 Wolves, 1 Boat
+Right Bank: 63 Chickens, 62 Wolves, 0 Boat
+
+Left Bank: 36 Chickens, 34 Wolves, 0 Boat
+Right Bank: 64 Chickens, 63 Wolves, 1 Boat
+
+Left Bank: 36 Chickens, 36 Wolves, 1 Boat
+Right Bank: 64 Chickens, 61 Wolves, 0 Boat
+
+Left Bank: 36 Chickens, 35 Wolves, 0 Boat
+Right Bank: 64 Chickens, 62 Wolves, 1 Boat
+
+Left Bank: 38 Chickens, 35 Wolves, 1 Boat
+Right Bank: 62 Chickens, 62 Wolves, 0 Boat
+
+Left Bank: 37 Chickens, 34 Wolves, 0 Boat
+Right Bank: 63 Chickens, 63 Wolves, 1 Boat
+
+Left Bank: 37 Chickens, 36 Wolves, 1 Boat
+Right Bank: 63 Chickens, 61 Wolves, 0 Boat
+
+Left Bank: 36 Chickens, 36 Wolves, 0 Boat
+Right Bank: 64 Chickens, 61 Wolves, 1 Boat
+
+Left Bank: 38 Chickens, 36 Wolves, 1 Boat
+Right Bank: 62 Chickens, 61 Wolves, 0 Boat
+
+Left Bank: 37 Chickens, 35 Wolves, 0 Boat
+Right Bank: 63 Chickens, 62 Wolves, 1 Boat
+
+Left Bank: 37 Chickens, 37 Wolves, 1 Boat
+Right Bank: 63 Chickens, 60 Wolves, 0 Boat
+
+Left Bank: 37 Chickens, 36 Wolves, 0 Boat
+Right Bank: 63 Chickens, 61 Wolves, 1 Boat
+
+Left Bank: 39 Chickens, 36 Wolves, 1 Boat
+Right Bank: 61 Chickens, 61 Wolves, 0 Boat
+
+Left Bank: 38 Chickens, 35 Wolves, 0 Boat
+Right Bank: 62 Chickens, 62 Wolves, 1 Boat
+
+Left Bank: 38 Chickens, 37 Wolves, 1 Boat
+Right Bank: 62 Chickens, 60 Wolves, 0 Boat
+
+Left Bank: 37 Chickens, 37 Wolves, 0 Boat
+Right Bank: 63 Chickens, 60 Wolves, 1 Boat
+
+Left Bank: 39 Chickens, 37 Wolves, 1 Boat
+Right Bank: 61 Chickens, 60 Wolves, 0 Boat
+
+Left Bank: 38 Chickens, 36 Wolves, 0 Boat
+Right Bank: 62 Chickens, 61 Wolves, 1 Boat
+
+Left Bank: 38 Chickens, 38 Wolves, 1 Boat
+Right Bank: 62 Chickens, 59 Wolves, 0 Boat
+
+Left Bank: 38 Chickens, 37 Wolves, 0 Boat
+Right Bank: 62 Chickens, 60 Wolves, 1 Boat
+
+Left Bank: 40 Chickens, 37 Wolves, 1 Boat
+Right Bank: 60 Chickens, 60 Wolves, 0 Boat
+
+Left Bank: 39 Chickens, 36 Wolves, 0 Boat
+Right Bank: 61 Chickens, 61 Wolves, 1 Boat
+
+Left Bank: 39 Chickens, 38 Wolves, 1 Boat
+Right Bank: 61 Chickens, 59 Wolves, 0 Boat
+
+Left Bank: 38 Chickens, 38 Wolves, 0 Boat
+Right Bank: 62 Chickens, 59 Wolves, 1 Boat
+
+Left Bank: 40 Chickens, 38 Wolves, 1 Boat
+Right Bank: 60 Chickens, 59 Wolves, 0 Boat
+
+Left Bank: 39 Chickens, 37 Wolves, 0 Boat
+Right Bank: 61 Chickens, 60 Wolves, 1 Boat
+
+Left Bank: 39 Chickens, 39 Wolves, 1 Boat
+Right Bank: 61 Chickens, 58 Wolves, 0 Boat
+
+Left Bank: 39 Chickens, 38 Wolves, 0 Boat
+Right Bank: 61 Chickens, 59 Wolves, 1 Boat
+
+Left Bank: 41 Chickens, 38 Wolves, 1 Boat
+Right Bank: 59 Chickens, 59 Wolves, 0 Boat
+
+Left Bank: 40 Chickens, 37 Wolves, 0 Boat
+Right Bank: 60 Chickens, 60 Wolves, 1 Boat
+
+Left Bank: 40 Chickens, 39 Wolves, 1 Boat
+Right Bank: 60 Chickens, 58 Wolves, 0 Boat
+
+Left Bank: 39 Chickens, 39 Wolves, 0 Boat
+Right Bank: 61 Chickens, 58 Wolves, 1 Boat
+
+Left Bank: 41 Chickens, 39 Wolves, 1 Boat
+Right Bank: 59 Chickens, 58 Wolves, 0 Boat
+
+Left Bank: 40 Chickens, 38 Wolves, 0 Boat
+Right Bank: 60 Chickens, 59 Wolves, 1 Boat
+
+Left Bank: 40 Chickens, 40 Wolves, 1 Boat
+Right Bank: 60 Chickens, 57 Wolves, 0 Boat
+
+Left Bank: 40 Chickens, 39 Wolves, 0 Boat
+Right Bank: 60 Chickens, 58 Wolves, 1 Boat
+
+Left Bank: 42 Chickens, 39 Wolves, 1 Boat
+Right Bank: 58 Chickens, 58 Wolves, 0 Boat
+
+Left Bank: 41 Chickens, 38 Wolves, 0 Boat
+Right Bank: 59 Chickens, 59 Wolves, 1 Boat
+
+Left Bank: 41 Chickens, 40 Wolves, 1 Boat
+Right Bank: 59 Chickens, 57 Wolves, 0 Boat
+
+Left Bank: 40 Chickens, 40 Wolves, 0 Boat
+Right Bank: 60 Chickens, 57 Wolves, 1 Boat
+
+Left Bank: 42 Chickens, 40 Wolves, 1 Boat
+Right Bank: 58 Chickens, 57 Wolves, 0 Boat
+
+Left Bank: 41 Chickens, 39 Wolves, 0 Boat
+Right Bank: 59 Chickens, 58 Wolves, 1 Boat
+
+Left Bank: 41 Chickens, 41 Wolves, 1 Boat
+Right Bank: 59 Chickens, 56 Wolves, 0 Boat
+
+Left Bank: 41 Chickens, 40 Wolves, 0 Boat
+Right Bank: 59 Chickens, 57 Wolves, 1 Boat
+
+Left Bank: 43 Chickens, 40 Wolves, 1 Boat
+Right Bank: 57 Chickens, 57 Wolves, 0 Boat
+
+Left Bank: 42 Chickens, 39 Wolves, 0 Boat
+Right Bank: 58 Chickens, 58 Wolves, 1 Boat
+
+Left Bank: 42 Chickens, 41 Wolves, 1 Boat
+Right Bank: 58 Chickens, 56 Wolves, 0 Boat
+
+Left Bank: 41 Chickens, 41 Wolves, 0 Boat
+Right Bank: 59 Chickens, 56 Wolves, 1 Boat
+
+Left Bank: 43 Chickens, 41 Wolves, 1 Boat
+Right Bank: 57 Chickens, 56 Wolves, 0 Boat
+
+Left Bank: 42 Chickens, 40 Wolves, 0 Boat
+Right Bank: 58 Chickens, 57 Wolves, 1 Boat
+
+Left Bank: 42 Chickens, 42 Wolves, 1 Boat
+Right Bank: 58 Chickens, 55 Wolves, 0 Boat
+
+Left Bank: 42 Chickens, 41 Wolves, 0 Boat
+Right Bank: 58 Chickens, 56 Wolves, 1 Boat
+
+Left Bank: 44 Chickens, 41 Wolves, 1 Boat
+Right Bank: 56 Chickens, 56 Wolves, 0 Boat
+
+Left Bank: 43 Chickens, 40 Wolves, 0 Boat
+Right Bank: 57 Chickens, 57 Wolves, 1 Boat
+
+Left Bank: 43 Chickens, 42 Wolves, 1 Boat
+Right Bank: 57 Chickens, 55 Wolves, 0 Boat
+
+Left Bank: 42 Chickens, 42 Wolves, 0 Boat
+Right Bank: 58 Chickens, 55 Wolves, 1 Boat
+
+Left Bank: 44 Chickens, 42 Wolves, 1 Boat
+Right Bank: 56 Chickens, 55 Wolves, 0 Boat
+
+Left Bank: 43 Chickens, 41 Wolves, 0 Boat
+Right Bank: 57 Chickens, 56 Wolves, 1 Boat
+
+Left Bank: 43 Chickens, 43 Wolves, 1 Boat
+Right Bank: 57 Chickens, 54 Wolves, 0 Boat
+
+Left Bank: 43 Chickens, 42 Wolves, 0 Boat
+Right Bank: 57 Chickens, 55 Wolves, 1 Boat
+
+Left Bank: 45 Chickens, 42 Wolves, 1 Boat
+Right Bank: 55 Chickens, 55 Wolves, 0 Boat
+
+Left Bank: 44 Chickens, 41 Wolves, 0 Boat
+Right Bank: 56 Chickens, 56 Wolves, 1 Boat
+
+Left Bank: 44 Chickens, 43 Wolves, 1 Boat
+Right Bank: 56 Chickens, 54 Wolves, 0 Boat
+
+Left Bank: 43 Chickens, 43 Wolves, 0 Boat
+Right Bank: 57 Chickens, 54 Wolves, 1 Boat
+
+Left Bank: 45 Chickens, 43 Wolves, 1 Boat
+Right Bank: 55 Chickens, 54 Wolves, 0 Boat
+
+Left Bank: 44 Chickens, 42 Wolves, 0 Boat
+Right Bank: 56 Chickens, 55 Wolves, 1 Boat
+
+Left Bank: 44 Chickens, 44 Wolves, 1 Boat
+Right Bank: 56 Chickens, 53 Wolves, 0 Boat
+
+Left Bank: 44 Chickens, 43 Wolves, 0 Boat
+Right Bank: 56 Chickens, 54 Wolves, 1 Boat
+
+Left Bank: 46 Chickens, 43 Wolves, 1 Boat
+Right Bank: 54 Chickens, 54 Wolves, 0 Boat
+
+Left Bank: 45 Chickens, 42 Wolves, 0 Boat
+Right Bank: 55 Chickens, 55 Wolves, 1 Boat
+
+Left Bank: 45 Chickens, 44 Wolves, 1 Boat
+Right Bank: 55 Chickens, 53 Wolves, 0 Boat
+
+Left Bank: 44 Chickens, 44 Wolves, 0 Boat
+Right Bank: 56 Chickens, 53 Wolves, 1 Boat
+
+Left Bank: 46 Chickens, 44 Wolves, 1 Boat
+Right Bank: 54 Chickens, 53 Wolves, 0 Boat
+
+Left Bank: 45 Chickens, 43 Wolves, 0 Boat
+Right Bank: 55 Chickens, 54 Wolves, 1 Boat
+
+Left Bank: 45 Chickens, 45 Wolves, 1 Boat
+Right Bank: 55 Chickens, 52 Wolves, 0 Boat
+
+Left Bank: 45 Chickens, 44 Wolves, 0 Boat
+Right Bank: 55 Chickens, 53 Wolves, 1 Boat
+
+Left Bank: 47 Chickens, 44 Wolves, 1 Boat
+Right Bank: 53 Chickens, 53 Wolves, 0 Boat
+
+Left Bank: 46 Chickens, 43 Wolves, 0 Boat
+Right Bank: 54 Chickens, 54 Wolves, 1 Boat
+
+Left Bank: 46 Chickens, 45 Wolves, 1 Boat
+Right Bank: 54 Chickens, 52 Wolves, 0 Boat
+
+Left Bank: 45 Chickens, 45 Wolves, 0 Boat
+Right Bank: 55 Chickens, 52 Wolves, 1 Boat
+
+Left Bank: 47 Chickens, 45 Wolves, 1 Boat
+Right Bank: 53 Chickens, 52 Wolves, 0 Boat
+
+Left Bank: 46 Chickens, 44 Wolves, 0 Boat
+Right Bank: 54 Chickens, 53 Wolves, 1 Boat
+
+Left Bank: 46 Chickens, 46 Wolves, 1 Boat
+Right Bank: 54 Chickens, 51 Wolves, 0 Boat
+
+Left Bank: 46 Chickens, 45 Wolves, 0 Boat
+Right Bank: 54 Chickens, 52 Wolves, 1 Boat
+
+Left Bank: 48 Chickens, 45 Wolves, 1 Boat
+Right Bank: 52 Chickens, 52 Wolves, 0 Boat
+
+Left Bank: 47 Chickens, 44 Wolves, 0 Boat
+Right Bank: 53 Chickens, 53 Wolves, 1 Boat
+
+Left Bank: 47 Chickens, 46 Wolves, 1 Boat
+Right Bank: 53 Chickens, 51 Wolves, 0 Boat
+
+Left Bank: 46 Chickens, 46 Wolves, 0 Boat
+Right Bank: 54 Chickens, 51 Wolves, 1 Boat
+
+Left Bank: 48 Chickens, 46 Wolves, 1 Boat
+Right Bank: 52 Chickens, 51 Wolves, 0 Boat
+
+Left Bank: 47 Chickens, 45 Wolves, 0 Boat
+Right Bank: 53 Chickens, 52 Wolves, 1 Boat
+
+Left Bank: 47 Chickens, 47 Wolves, 1 Boat
+Right Bank: 53 Chickens, 50 Wolves, 0 Boat
+
+Left Bank: 47 Chickens, 46 Wolves, 0 Boat
+Right Bank: 53 Chickens, 51 Wolves, 1 Boat
+
+Left Bank: 49 Chickens, 46 Wolves, 1 Boat
+Right Bank: 51 Chickens, 51 Wolves, 0 Boat
+
+Left Bank: 48 Chickens, 45 Wolves, 0 Boat
+Right Bank: 52 Chickens, 52 Wolves, 1 Boat
+
+Left Bank: 48 Chickens, 47 Wolves, 1 Boat
+Right Bank: 52 Chickens, 50 Wolves, 0 Boat
+
+Left Bank: 47 Chickens, 47 Wolves, 0 Boat
+Right Bank: 53 Chickens, 50 Wolves, 1 Boat
+
+Left Bank: 49 Chickens, 47 Wolves, 1 Boat
+Right Bank: 51 Chickens, 50 Wolves, 0 Boat
+
+Left Bank: 48 Chickens, 46 Wolves, 0 Boat
+Right Bank: 52 Chickens, 51 Wolves, 1 Boat
+
+Left Bank: 48 Chickens, 48 Wolves, 1 Boat
+Right Bank: 52 Chickens, 49 Wolves, 0 Boat
+
+Left Bank: 48 Chickens, 47 Wolves, 0 Boat
+Right Bank: 52 Chickens, 50 Wolves, 1 Boat
+
+Left Bank: 50 Chickens, 47 Wolves, 1 Boat
+Right Bank: 50 Chickens, 50 Wolves, 0 Boat
+
+Left Bank: 49 Chickens, 46 Wolves, 0 Boat
+Right Bank: 51 Chickens, 51 Wolves, 1 Boat
+
+Left Bank: 49 Chickens, 48 Wolves, 1 Boat
+Right Bank: 51 Chickens, 49 Wolves, 0 Boat
+
+Left Bank: 48 Chickens, 48 Wolves, 0 Boat
+Right Bank: 52 Chickens, 49 Wolves, 1 Boat
+
+Left Bank: 50 Chickens, 48 Wolves, 1 Boat
+Right Bank: 50 Chickens, 49 Wolves, 0 Boat
+
+Left Bank: 49 Chickens, 47 Wolves, 0 Boat
+Right Bank: 51 Chickens, 50 Wolves, 1 Boat
+
+Left Bank: 49 Chickens, 49 Wolves, 1 Boat
+Right Bank: 51 Chickens, 48 Wolves, 0 Boat
+
+Left Bank: 49 Chickens, 48 Wolves, 0 Boat
+Right Bank: 51 Chickens, 49 Wolves, 1 Boat
+
+Left Bank: 51 Chickens, 48 Wolves, 1 Boat
+Right Bank: 49 Chickens, 49 Wolves, 0 Boat
+
+Left Bank: 50 Chickens, 47 Wolves, 0 Boat
+Right Bank: 50 Chickens, 50 Wolves, 1 Boat
+
+Left Bank: 50 Chickens, 49 Wolves, 1 Boat
+Right Bank: 50 Chickens, 48 Wolves, 0 Boat
+
+Left Bank: 49 Chickens, 49 Wolves, 0 Boat
+Right Bank: 51 Chickens, 48 Wolves, 1 Boat
+
+Left Bank: 51 Chickens, 49 Wolves, 1 Boat
+Right Bank: 49 Chickens, 48 Wolves, 0 Boat
+
+Left Bank: 50 Chickens, 48 Wolves, 0 Boat
+Right Bank: 50 Chickens, 49 Wolves, 1 Boat
+
+Left Bank: 50 Chickens, 50 Wolves, 1 Boat
+Right Bank: 50 Chickens, 47 Wolves, 0 Boat
+
+Left Bank: 50 Chickens, 49 Wolves, 0 Boat
+Right Bank: 50 Chickens, 48 Wolves, 1 Boat
+
+Left Bank: 52 Chickens, 49 Wolves, 1 Boat
+Right Bank: 48 Chickens, 48 Wolves, 0 Boat
+
+Left Bank: 51 Chickens, 48 Wolves, 0 Boat
+Right Bank: 49 Chickens, 49 Wolves, 1 Boat
+
+Left Bank: 51 Chickens, 50 Wolves, 1 Boat
+Right Bank: 49 Chickens, 47 Wolves, 0 Boat
+
+Left Bank: 50 Chickens, 50 Wolves, 0 Boat
+Right Bank: 50 Chickens, 47 Wolves, 1 Boat
+
+Left Bank: 52 Chickens, 50 Wolves, 1 Boat
+Right Bank: 48 Chickens, 47 Wolves, 0 Boat
+
+Left Bank: 51 Chickens, 49 Wolves, 0 Boat
+Right Bank: 49 Chickens, 48 Wolves, 1 Boat
+
+Left Bank: 51 Chickens, 51 Wolves, 1 Boat
+Right Bank: 49 Chickens, 46 Wolves, 0 Boat
+
+Left Bank: 51 Chickens, 50 Wolves, 0 Boat
+Right Bank: 49 Chickens, 47 Wolves, 1 Boat
+
+Left Bank: 53 Chickens, 50 Wolves, 1 Boat
+Right Bank: 47 Chickens, 47 Wolves, 0 Boat
+
+Left Bank: 52 Chickens, 49 Wolves, 0 Boat
+Right Bank: 48 Chickens, 48 Wolves, 1 Boat
+
+Left Bank: 52 Chickens, 51 Wolves, 1 Boat
+Right Bank: 48 Chickens, 46 Wolves, 0 Boat
+
+Left Bank: 51 Chickens, 51 Wolves, 0 Boat
+Right Bank: 49 Chickens, 46 Wolves, 1 Boat
+
+Left Bank: 53 Chickens, 51 Wolves, 1 Boat
+Right Bank: 47 Chickens, 46 Wolves, 0 Boat
+
+Left Bank: 52 Chickens, 50 Wolves, 0 Boat
+Right Bank: 48 Chickens, 47 Wolves, 1 Boat
+
+Left Bank: 52 Chickens, 52 Wolves, 1 Boat
+Right Bank: 48 Chickens, 45 Wolves, 0 Boat
+
+Left Bank: 52 Chickens, 51 Wolves, 0 Boat
+Right Bank: 48 Chickens, 46 Wolves, 1 Boat
+
+Left Bank: 54 Chickens, 51 Wolves, 1 Boat
+Right Bank: 46 Chickens, 46 Wolves, 0 Boat
+
+Left Bank: 53 Chickens, 50 Wolves, 0 Boat
+Right Bank: 47 Chickens, 47 Wolves, 1 Boat
+
+Left Bank: 53 Chickens, 52 Wolves, 1 Boat
+Right Bank: 47 Chickens, 45 Wolves, 0 Boat
+
+Left Bank: 52 Chickens, 52 Wolves, 0 Boat
+Right Bank: 48 Chickens, 45 Wolves, 1 Boat
+
+Left Bank: 54 Chickens, 52 Wolves, 1 Boat
+Right Bank: 46 Chickens, 45 Wolves, 0 Boat
+
+Left Bank: 53 Chickens, 51 Wolves, 0 Boat
+Right Bank: 47 Chickens, 46 Wolves, 1 Boat
+
+Left Bank: 53 Chickens, 53 Wolves, 1 Boat
+Right Bank: 47 Chickens, 44 Wolves, 0 Boat
+
+Left Bank: 53 Chickens, 52 Wolves, 0 Boat
+Right Bank: 47 Chickens, 45 Wolves, 1 Boat
+
+Left Bank: 55 Chickens, 52 Wolves, 1 Boat
+Right Bank: 45 Chickens, 45 Wolves, 0 Boat
+
+Left Bank: 54 Chickens, 51 Wolves, 0 Boat
+Right Bank: 46 Chickens, 46 Wolves, 1 Boat
+
+Left Bank: 54 Chickens, 53 Wolves, 1 Boat
+Right Bank: 46 Chickens, 44 Wolves, 0 Boat
+
+Left Bank: 53 Chickens, 53 Wolves, 0 Boat
+Right Bank: 47 Chickens, 44 Wolves, 1 Boat
+
+Left Bank: 55 Chickens, 53 Wolves, 1 Boat
+Right Bank: 45 Chickens, 44 Wolves, 0 Boat
+
+Left Bank: 54 Chickens, 52 Wolves, 0 Boat
+Right Bank: 46 Chickens, 45 Wolves, 1 Boat
+
+Left Bank: 54 Chickens, 54 Wolves, 1 Boat
+Right Bank: 46 Chickens, 43 Wolves, 0 Boat
+
+Left Bank: 54 Chickens, 53 Wolves, 0 Boat
+Right Bank: 46 Chickens, 44 Wolves, 1 Boat
+
+Left Bank: 56 Chickens, 53 Wolves, 1 Boat
+Right Bank: 44 Chickens, 44 Wolves, 0 Boat
+
+Left Bank: 55 Chickens, 52 Wolves, 0 Boat
+Right Bank: 45 Chickens, 45 Wolves, 1 Boat
+
+Left Bank: 55 Chickens, 54 Wolves, 1 Boat
+Right Bank: 45 Chickens, 43 Wolves, 0 Boat
+
+Left Bank: 54 Chickens, 54 Wolves, 0 Boat
+Right Bank: 46 Chickens, 43 Wolves, 1 Boat
+
+Left Bank: 56 Chickens, 54 Wolves, 1 Boat
+Right Bank: 44 Chickens, 43 Wolves, 0 Boat
+
+Left Bank: 55 Chickens, 53 Wolves, 0 Boat
+Right Bank: 45 Chickens, 44 Wolves, 1 Boat
+
+Left Bank: 55 Chickens, 55 Wolves, 1 Boat
+Right Bank: 45 Chickens, 42 Wolves, 0 Boat
+
+Left Bank: 55 Chickens, 54 Wolves, 0 Boat
+Right Bank: 45 Chickens, 43 Wolves, 1 Boat
+
+Left Bank: 57 Chickens, 54 Wolves, 1 Boat
+Right Bank: 43 Chickens, 43 Wolves, 0 Boat
+
+Left Bank: 56 Chickens, 53 Wolves, 0 Boat
+Right Bank: 44 Chickens, 44 Wolves, 1 Boat
+
+Left Bank: 56 Chickens, 55 Wolves, 1 Boat
+Right Bank: 44 Chickens, 42 Wolves, 0 Boat
+
+Left Bank: 55 Chickens, 55 Wolves, 0 Boat
+Right Bank: 45 Chickens, 42 Wolves, 1 Boat
+
+Left Bank: 57 Chickens, 55 Wolves, 1 Boat
+Right Bank: 43 Chickens, 42 Wolves, 0 Boat
+
+Left Bank: 56 Chickens, 54 Wolves, 0 Boat
+Right Bank: 44 Chickens, 43 Wolves, 1 Boat
+
+Left Bank: 56 Chickens, 56 Wolves, 1 Boat
+Right Bank: 44 Chickens, 41 Wolves, 0 Boat
+
+Left Bank: 56 Chickens, 55 Wolves, 0 Boat
+Right Bank: 44 Chickens, 42 Wolves, 1 Boat
+
+Left Bank: 58 Chickens, 55 Wolves, 1 Boat
+Right Bank: 42 Chickens, 42 Wolves, 0 Boat
+
+Left Bank: 57 Chickens, 54 Wolves, 0 Boat
+Right Bank: 43 Chickens, 43 Wolves, 1 Boat
+
+Left Bank: 57 Chickens, 56 Wolves, 1 Boat
+Right Bank: 43 Chickens, 41 Wolves, 0 Boat
+
+Left Bank: 56 Chickens, 56 Wolves, 0 Boat
+Right Bank: 44 Chickens, 41 Wolves, 1 Boat
+
+Left Bank: 58 Chickens, 56 Wolves, 1 Boat
+Right Bank: 42 Chickens, 41 Wolves, 0 Boat
+
+Left Bank: 57 Chickens, 55 Wolves, 0 Boat
+Right Bank: 43 Chickens, 42 Wolves, 1 Boat
+
+Left Bank: 57 Chickens, 57 Wolves, 1 Boat
+Right Bank: 43 Chickens, 40 Wolves, 0 Boat
+
+Left Bank: 57 Chickens, 56 Wolves, 0 Boat
+Right Bank: 43 Chickens, 41 Wolves, 1 Boat
+
+Left Bank: 59 Chickens, 56 Wolves, 1 Boat
+Right Bank: 41 Chickens, 41 Wolves, 0 Boat
+
+Left Bank: 58 Chickens, 55 Wolves, 0 Boat
+Right Bank: 42 Chickens, 42 Wolves, 1 Boat
+
+Left Bank: 58 Chickens, 57 Wolves, 1 Boat
+Right Bank: 42 Chickens, 40 Wolves, 0 Boat
+
+Left Bank: 57 Chickens, 57 Wolves, 0 Boat
+Right Bank: 43 Chickens, 40 Wolves, 1 Boat
+
+Left Bank: 59 Chickens, 57 Wolves, 1 Boat
+Right Bank: 41 Chickens, 40 Wolves, 0 Boat
+
+Left Bank: 58 Chickens, 56 Wolves, 0 Boat
+Right Bank: 42 Chickens, 41 Wolves, 1 Boat
+
+Left Bank: 58 Chickens, 58 Wolves, 1 Boat
+Right Bank: 42 Chickens, 39 Wolves, 0 Boat
+
+Left Bank: 58 Chickens, 57 Wolves, 0 Boat
+Right Bank: 42 Chickens, 40 Wolves, 1 Boat
+
+Left Bank: 60 Chickens, 57 Wolves, 1 Boat
+Right Bank: 40 Chickens, 40 Wolves, 0 Boat
+
+Left Bank: 59 Chickens, 56 Wolves, 0 Boat
+Right Bank: 41 Chickens, 41 Wolves, 1 Boat
+
+Left Bank: 59 Chickens, 58 Wolves, 1 Boat
+Right Bank: 41 Chickens, 39 Wolves, 0 Boat
+
+Left Bank: 58 Chickens, 58 Wolves, 0 Boat
+Right Bank: 42 Chickens, 39 Wolves, 1 Boat
+
+Left Bank: 60 Chickens, 58 Wolves, 1 Boat
+Right Bank: 40 Chickens, 39 Wolves, 0 Boat
+
+Left Bank: 59 Chickens, 57 Wolves, 0 Boat
+Right Bank: 41 Chickens, 40 Wolves, 1 Boat
+
+Left Bank: 59 Chickens, 59 Wolves, 1 Boat
+Right Bank: 41 Chickens, 38 Wolves, 0 Boat
+
+Left Bank: 59 Chickens, 58 Wolves, 0 Boat
+Right Bank: 41 Chickens, 39 Wolves, 1 Boat
+
+Left Bank: 61 Chickens, 58 Wolves, 1 Boat
+Right Bank: 39 Chickens, 39 Wolves, 0 Boat
+
+Left Bank: 60 Chickens, 57 Wolves, 0 Boat
+Right Bank: 40 Chickens, 40 Wolves, 1 Boat
+
+Left Bank: 60 Chickens, 59 Wolves, 1 Boat
+Right Bank: 40 Chickens, 38 Wolves, 0 Boat
+
+Left Bank: 59 Chickens, 59 Wolves, 0 Boat
+Right Bank: 41 Chickens, 38 Wolves, 1 Boat
+
+Left Bank: 61 Chickens, 59 Wolves, 1 Boat
+Right Bank: 39 Chickens, 38 Wolves, 0 Boat
+
+Left Bank: 60 Chickens, 58 Wolves, 0 Boat
+Right Bank: 40 Chickens, 39 Wolves, 1 Boat
+
+Left Bank: 60 Chickens, 60 Wolves, 1 Boat
+Right Bank: 40 Chickens, 37 Wolves, 0 Boat
+
+Left Bank: 60 Chickens, 59 Wolves, 0 Boat
+Right Bank: 40 Chickens, 38 Wolves, 1 Boat
+
+Left Bank: 62 Chickens, 59 Wolves, 1 Boat
+Right Bank: 38 Chickens, 38 Wolves, 0 Boat
+
+Left Bank: 61 Chickens, 58 Wolves, 0 Boat
+Right Bank: 39 Chickens, 39 Wolves, 1 Boat
+
+Left Bank: 61 Chickens, 60 Wolves, 1 Boat
+Right Bank: 39 Chickens, 37 Wolves, 0 Boat
+
+Left Bank: 60 Chickens, 60 Wolves, 0 Boat
+Right Bank: 40 Chickens, 37 Wolves, 1 Boat
+
+Left Bank: 62 Chickens, 60 Wolves, 1 Boat
+Right Bank: 38 Chickens, 37 Wolves, 0 Boat
+
+Left Bank: 61 Chickens, 59 Wolves, 0 Boat
+Right Bank: 39 Chickens, 38 Wolves, 1 Boat
+
+Left Bank: 61 Chickens, 61 Wolves, 1 Boat
+Right Bank: 39 Chickens, 36 Wolves, 0 Boat
+
+Left Bank: 61 Chickens, 60 Wolves, 0 Boat
+Right Bank: 39 Chickens, 37 Wolves, 1 Boat
+
+Left Bank: 63 Chickens, 60 Wolves, 1 Boat
+Right Bank: 37 Chickens, 37 Wolves, 0 Boat
+
+Left Bank: 62 Chickens, 59 Wolves, 0 Boat
+Right Bank: 38 Chickens, 38 Wolves, 1 Boat
+
+Left Bank: 62 Chickens, 61 Wolves, 1 Boat
+Right Bank: 38 Chickens, 36 Wolves, 0 Boat
+
+Left Bank: 61 Chickens, 61 Wolves, 0 Boat
+Right Bank: 39 Chickens, 36 Wolves, 1 Boat
+
+Left Bank: 63 Chickens, 61 Wolves, 1 Boat
+Right Bank: 37 Chickens, 36 Wolves, 0 Boat
+
+Left Bank: 62 Chickens, 60 Wolves, 0 Boat
+Right Bank: 38 Chickens, 37 Wolves, 1 Boat
+
+Left Bank: 62 Chickens, 62 Wolves, 1 Boat
+Right Bank: 38 Chickens, 35 Wolves, 0 Boat
+
+Left Bank: 62 Chickens, 61 Wolves, 0 Boat
+Right Bank: 38 Chickens, 36 Wolves, 1 Boat
+
+Left Bank: 64 Chickens, 61 Wolves, 1 Boat
+Right Bank: 36 Chickens, 36 Wolves, 0 Boat
+
+Left Bank: 63 Chickens, 60 Wolves, 0 Boat
+Right Bank: 37 Chickens, 37 Wolves, 1 Boat
+
+Left Bank: 63 Chickens, 62 Wolves, 1 Boat
+Right Bank: 37 Chickens, 35 Wolves, 0 Boat
+
+Left Bank: 62 Chickens, 62 Wolves, 0 Boat
+Right Bank: 38 Chickens, 35 Wolves, 1 Boat
+
+Left Bank: 64 Chickens, 62 Wolves, 1 Boat
+Right Bank: 36 Chickens, 35 Wolves, 0 Boat
+
+Left Bank: 63 Chickens, 61 Wolves, 0 Boat
+Right Bank: 37 Chickens, 36 Wolves, 1 Boat
+
+Left Bank: 63 Chickens, 63 Wolves, 1 Boat
+Right Bank: 37 Chickens, 34 Wolves, 0 Boat
+
+Left Bank: 63 Chickens, 62 Wolves, 0 Boat
+Right Bank: 37 Chickens, 35 Wolves, 1 Boat
+
+Left Bank: 65 Chickens, 62 Wolves, 1 Boat
+Right Bank: 35 Chickens, 35 Wolves, 0 Boat
+
+Left Bank: 64 Chickens, 61 Wolves, 0 Boat
+Right Bank: 36 Chickens, 36 Wolves, 1 Boat
+
+Left Bank: 64 Chickens, 63 Wolves, 1 Boat
+Right Bank: 36 Chickens, 34 Wolves, 0 Boat
+
+Left Bank: 63 Chickens, 63 Wolves, 0 Boat
+Right Bank: 37 Chickens, 34 Wolves, 1 Boat
+
+Left Bank: 65 Chickens, 63 Wolves, 1 Boat
+Right Bank: 35 Chickens, 34 Wolves, 0 Boat
+
+Left Bank: 64 Chickens, 62 Wolves, 0 Boat
+Right Bank: 36 Chickens, 35 Wolves, 1 Boat
+
+Left Bank: 64 Chickens, 64 Wolves, 1 Boat
+Right Bank: 36 Chickens, 33 Wolves, 0 Boat
+
+Left Bank: 64 Chickens, 63 Wolves, 0 Boat
+Right Bank: 36 Chickens, 34 Wolves, 1 Boat
+
+Left Bank: 66 Chickens, 63 Wolves, 1 Boat
+Right Bank: 34 Chickens, 34 Wolves, 0 Boat
+
+Left Bank: 65 Chickens, 62 Wolves, 0 Boat
+Right Bank: 35 Chickens, 35 Wolves, 1 Boat
+
+Left Bank: 65 Chickens, 64 Wolves, 1 Boat
+Right Bank: 35 Chickens, 33 Wolves, 0 Boat
+
+Left Bank: 64 Chickens, 64 Wolves, 0 Boat
+Right Bank: 36 Chickens, 33 Wolves, 1 Boat
+
+Left Bank: 66 Chickens, 64 Wolves, 1 Boat
+Right Bank: 34 Chickens, 33 Wolves, 0 Boat
+
+Left Bank: 65 Chickens, 63 Wolves, 0 Boat
+Right Bank: 35 Chickens, 34 Wolves, 1 Boat
+
+Left Bank: 65 Chickens, 65 Wolves, 1 Boat
+Right Bank: 35 Chickens, 32 Wolves, 0 Boat
+
+Left Bank: 65 Chickens, 64 Wolves, 0 Boat
+Right Bank: 35 Chickens, 33 Wolves, 1 Boat
+
+Left Bank: 67 Chickens, 64 Wolves, 1 Boat
+Right Bank: 33 Chickens, 33 Wolves, 0 Boat
+
+Left Bank: 66 Chickens, 63 Wolves, 0 Boat
+Right Bank: 34 Chickens, 34 Wolves, 1 Boat
+
+Left Bank: 66 Chickens, 65 Wolves, 1 Boat
+Right Bank: 34 Chickens, 32 Wolves, 0 Boat
+
+Left Bank: 65 Chickens, 65 Wolves, 0 Boat
+Right Bank: 35 Chickens, 32 Wolves, 1 Boat
+
+Left Bank: 67 Chickens, 65 Wolves, 1 Boat
+Right Bank: 33 Chickens, 32 Wolves, 0 Boat
+
+Left Bank: 66 Chickens, 64 Wolves, 0 Boat
+Right Bank: 34 Chickens, 33 Wolves, 1 Boat
+
+Left Bank: 66 Chickens, 66 Wolves, 1 Boat
+Right Bank: 34 Chickens, 31 Wolves, 0 Boat
+
+Left Bank: 66 Chickens, 65 Wolves, 0 Boat
+Right Bank: 34 Chickens, 32 Wolves, 1 Boat
+
+Left Bank: 68 Chickens, 65 Wolves, 1 Boat
+Right Bank: 32 Chickens, 32 Wolves, 0 Boat
+
+Left Bank: 67 Chickens, 64 Wolves, 0 Boat
+Right Bank: 33 Chickens, 33 Wolves, 1 Boat
+
+Left Bank: 67 Chickens, 66 Wolves, 1 Boat
+Right Bank: 33 Chickens, 31 Wolves, 0 Boat
+
+Left Bank: 66 Chickens, 66 Wolves, 0 Boat
+Right Bank: 34 Chickens, 31 Wolves, 1 Boat
+
+Left Bank: 68 Chickens, 66 Wolves, 1 Boat
+Right Bank: 32 Chickens, 31 Wolves, 0 Boat
+
+Left Bank: 67 Chickens, 65 Wolves, 0 Boat
+Right Bank: 33 Chickens, 32 Wolves, 1 Boat
+
+Left Bank: 67 Chickens, 67 Wolves, 1 Boat
+Right Bank: 33 Chickens, 30 Wolves, 0 Boat
+
+Left Bank: 67 Chickens, 66 Wolves, 0 Boat
+Right Bank: 33 Chickens, 31 Wolves, 1 Boat
+
+Left Bank: 69 Chickens, 66 Wolves, 1 Boat
+Right Bank: 31 Chickens, 31 Wolves, 0 Boat
+
+Left Bank: 68 Chickens, 65 Wolves, 0 Boat
+Right Bank: 32 Chickens, 32 Wolves, 1 Boat
+
+Left Bank: 68 Chickens, 67 Wolves, 1 Boat
+Right Bank: 32 Chickens, 30 Wolves, 0 Boat
+
+Left Bank: 67 Chickens, 67 Wolves, 0 Boat
+Right Bank: 33 Chickens, 30 Wolves, 1 Boat
+
+Left Bank: 69 Chickens, 67 Wolves, 1 Boat
+Right Bank: 31 Chickens, 30 Wolves, 0 Boat
+
+Left Bank: 68 Chickens, 66 Wolves, 0 Boat
+Right Bank: 32 Chickens, 31 Wolves, 1 Boat
+
+Left Bank: 68 Chickens, 68 Wolves, 1 Boat
+Right Bank: 32 Chickens, 29 Wolves, 0 Boat
+
+Left Bank: 68 Chickens, 67 Wolves, 0 Boat
+Right Bank: 32 Chickens, 30 Wolves, 1 Boat
+
+Left Bank: 70 Chickens, 67 Wolves, 1 Boat
+Right Bank: 30 Chickens, 30 Wolves, 0 Boat
+
+Left Bank: 69 Chickens, 66 Wolves, 0 Boat
+Right Bank: 31 Chickens, 31 Wolves, 1 Boat
+
+Left Bank: 69 Chickens, 68 Wolves, 1 Boat
+Right Bank: 31 Chickens, 29 Wolves, 0 Boat
+
+Left Bank: 68 Chickens, 68 Wolves, 0 Boat
+Right Bank: 32 Chickens, 29 Wolves, 1 Boat
+
+Left Bank: 70 Chickens, 68 Wolves, 1 Boat
+Right Bank: 30 Chickens, 29 Wolves, 0 Boat
+
+Left Bank: 69 Chickens, 67 Wolves, 0 Boat
+Right Bank: 31 Chickens, 30 Wolves, 1 Boat
+
+Left Bank: 69 Chickens, 69 Wolves, 1 Boat
+Right Bank: 31 Chickens, 28 Wolves, 0 Boat
+
+Left Bank: 69 Chickens, 68 Wolves, 0 Boat
+Right Bank: 31 Chickens, 29 Wolves, 1 Boat
+
+Left Bank: 71 Chickens, 68 Wolves, 1 Boat
+Right Bank: 29 Chickens, 29 Wolves, 0 Boat
+
+Left Bank: 70 Chickens, 67 Wolves, 0 Boat
+Right Bank: 30 Chickens, 30 Wolves, 1 Boat
+
+Left Bank: 70 Chickens, 69 Wolves, 1 Boat
+Right Bank: 30 Chickens, 28 Wolves, 0 Boat
+
+Left Bank: 69 Chickens, 69 Wolves, 0 Boat
+Right Bank: 31 Chickens, 28 Wolves, 1 Boat
+
+Left Bank: 71 Chickens, 69 Wolves, 1 Boat
+Right Bank: 29 Chickens, 28 Wolves, 0 Boat
+
+Left Bank: 70 Chickens, 68 Wolves, 0 Boat
+Right Bank: 30 Chickens, 29 Wolves, 1 Boat
+
+Left Bank: 70 Chickens, 70 Wolves, 1 Boat
+Right Bank: 30 Chickens, 27 Wolves, 0 Boat
+
+Left Bank: 70 Chickens, 69 Wolves, 0 Boat
+Right Bank: 30 Chickens, 28 Wolves, 1 Boat
+
+Left Bank: 72 Chickens, 69 Wolves, 1 Boat
+Right Bank: 28 Chickens, 28 Wolves, 0 Boat
+
+Left Bank: 71 Chickens, 68 Wolves, 0 Boat
+Right Bank: 29 Chickens, 29 Wolves, 1 Boat
+
+Left Bank: 71 Chickens, 70 Wolves, 1 Boat
+Right Bank: 29 Chickens, 27 Wolves, 0 Boat
+
+Left Bank: 70 Chickens, 70 Wolves, 0 Boat
+Right Bank: 30 Chickens, 27 Wolves, 1 Boat
+
+Left Bank: 72 Chickens, 70 Wolves, 1 Boat
+Right Bank: 28 Chickens, 27 Wolves, 0 Boat
+
+Left Bank: 71 Chickens, 69 Wolves, 0 Boat
+Right Bank: 29 Chickens, 28 Wolves, 1 Boat
+
+Left Bank: 71 Chickens, 71 Wolves, 1 Boat
+Right Bank: 29 Chickens, 26 Wolves, 0 Boat
+
+Left Bank: 71 Chickens, 70 Wolves, 0 Boat
+Right Bank: 29 Chickens, 27 Wolves, 1 Boat
+
+Left Bank: 73 Chickens, 70 Wolves, 1 Boat
+Right Bank: 27 Chickens, 27 Wolves, 0 Boat
+
+Left Bank: 72 Chickens, 69 Wolves, 0 Boat
+Right Bank: 28 Chickens, 28 Wolves, 1 Boat
+
+Left Bank: 72 Chickens, 71 Wolves, 1 Boat
+Right Bank: 28 Chickens, 26 Wolves, 0 Boat
+
+Left Bank: 71 Chickens, 71 Wolves, 0 Boat
+Right Bank: 29 Chickens, 26 Wolves, 1 Boat
+
+Left Bank: 73 Chickens, 71 Wolves, 1 Boat
+Right Bank: 27 Chickens, 26 Wolves, 0 Boat
+
+Left Bank: 72 Chickens, 70 Wolves, 0 Boat
+Right Bank: 28 Chickens, 27 Wolves, 1 Boat
+
+Left Bank: 72 Chickens, 72 Wolves, 1 Boat
+Right Bank: 28 Chickens, 25 Wolves, 0 Boat
+
+Left Bank: 72 Chickens, 71 Wolves, 0 Boat
+Right Bank: 28 Chickens, 26 Wolves, 1 Boat
+
+Left Bank: 74 Chickens, 71 Wolves, 1 Boat
+Right Bank: 26 Chickens, 26 Wolves, 0 Boat
+
+Left Bank: 73 Chickens, 70 Wolves, 0 Boat
+Right Bank: 27 Chickens, 27 Wolves, 1 Boat
+
+Left Bank: 73 Chickens, 72 Wolves, 1 Boat
+Right Bank: 27 Chickens, 25 Wolves, 0 Boat
+
+Left Bank: 72 Chickens, 72 Wolves, 0 Boat
+Right Bank: 28 Chickens, 25 Wolves, 1 Boat
+
+Left Bank: 74 Chickens, 72 Wolves, 1 Boat
+Right Bank: 26 Chickens, 25 Wolves, 0 Boat
+
+Left Bank: 73 Chickens, 71 Wolves, 0 Boat
+Right Bank: 27 Chickens, 26 Wolves, 1 Boat
+
+Left Bank: 73 Chickens, 73 Wolves, 1 Boat
+Right Bank: 27 Chickens, 24 Wolves, 0 Boat
+
+Left Bank: 73 Chickens, 72 Wolves, 0 Boat
+Right Bank: 27 Chickens, 25 Wolves, 1 Boat
+
+Left Bank: 75 Chickens, 72 Wolves, 1 Boat
+Right Bank: 25 Chickens, 25 Wolves, 0 Boat
+
+Left Bank: 74 Chickens, 71 Wolves, 0 Boat
+Right Bank: 26 Chickens, 26 Wolves, 1 Boat
+
+Left Bank: 74 Chickens, 73 Wolves, 1 Boat
+Right Bank: 26 Chickens, 24 Wolves, 0 Boat
+
+Left Bank: 73 Chickens, 73 Wolves, 0 Boat
+Right Bank: 27 Chickens, 24 Wolves, 1 Boat
+
+Left Bank: 75 Chickens, 73 Wolves, 1 Boat
+Right Bank: 25 Chickens, 24 Wolves, 0 Boat
+
+Left Bank: 74 Chickens, 72 Wolves, 0 Boat
+Right Bank: 26 Chickens, 25 Wolves, 1 Boat
+
+Left Bank: 74 Chickens, 74 Wolves, 1 Boat
+Right Bank: 26 Chickens, 23 Wolves, 0 Boat
+
+Left Bank: 74 Chickens, 73 Wolves, 0 Boat
+Right Bank: 26 Chickens, 24 Wolves, 1 Boat
+
+Left Bank: 76 Chickens, 73 Wolves, 1 Boat
+Right Bank: 24 Chickens, 24 Wolves, 0 Boat
+
+Left Bank: 75 Chickens, 72 Wolves, 0 Boat
+Right Bank: 25 Chickens, 25 Wolves, 1 Boat
+
+Left Bank: 75 Chickens, 74 Wolves, 1 Boat
+Right Bank: 25 Chickens, 23 Wolves, 0 Boat
+
+Left Bank: 74 Chickens, 74 Wolves, 0 Boat
+Right Bank: 26 Chickens, 23 Wolves, 1 Boat
+
+Left Bank: 76 Chickens, 74 Wolves, 1 Boat
+Right Bank: 24 Chickens, 23 Wolves, 0 Boat
+
+Left Bank: 75 Chickens, 73 Wolves, 0 Boat
+Right Bank: 25 Chickens, 24 Wolves, 1 Boat
+
+Left Bank: 75 Chickens, 75 Wolves, 1 Boat
+Right Bank: 25 Chickens, 22 Wolves, 0 Boat
+
+Left Bank: 75 Chickens, 74 Wolves, 0 Boat
+Right Bank: 25 Chickens, 23 Wolves, 1 Boat
+
+Left Bank: 77 Chickens, 74 Wolves, 1 Boat
+Right Bank: 23 Chickens, 23 Wolves, 0 Boat
+
+Left Bank: 76 Chickens, 73 Wolves, 0 Boat
+Right Bank: 24 Chickens, 24 Wolves, 1 Boat
+
+Left Bank: 76 Chickens, 75 Wolves, 1 Boat
+Right Bank: 24 Chickens, 22 Wolves, 0 Boat
+
+Left Bank: 75 Chickens, 75 Wolves, 0 Boat
+Right Bank: 25 Chickens, 22 Wolves, 1 Boat
+
+Left Bank: 77 Chickens, 75 Wolves, 1 Boat
+Right Bank: 23 Chickens, 22 Wolves, 0 Boat
+
+Left Bank: 76 Chickens, 74 Wolves, 0 Boat
+Right Bank: 24 Chickens, 23 Wolves, 1 Boat
+
+Left Bank: 76 Chickens, 76 Wolves, 1 Boat
+Right Bank: 24 Chickens, 21 Wolves, 0 Boat
+
+Left Bank: 76 Chickens, 75 Wolves, 0 Boat
+Right Bank: 24 Chickens, 22 Wolves, 1 Boat
+
+Left Bank: 78 Chickens, 75 Wolves, 1 Boat
+Right Bank: 22 Chickens, 22 Wolves, 0 Boat
+
+Left Bank: 77 Chickens, 74 Wolves, 0 Boat
+Right Bank: 23 Chickens, 23 Wolves, 1 Boat
+
+Left Bank: 77 Chickens, 76 Wolves, 1 Boat
+Right Bank: 23 Chickens, 21 Wolves, 0 Boat
+
+Left Bank: 76 Chickens, 76 Wolves, 0 Boat
+Right Bank: 24 Chickens, 21 Wolves, 1 Boat
+
+Left Bank: 78 Chickens, 76 Wolves, 1 Boat
+Right Bank: 22 Chickens, 21 Wolves, 0 Boat
+
+Left Bank: 77 Chickens, 75 Wolves, 0 Boat
+Right Bank: 23 Chickens, 22 Wolves, 1 Boat
+
+Left Bank: 77 Chickens, 77 Wolves, 1 Boat
+Right Bank: 23 Chickens, 20 Wolves, 0 Boat
+
+Left Bank: 77 Chickens, 76 Wolves, 0 Boat
+Right Bank: 23 Chickens, 21 Wolves, 1 Boat
+
+Left Bank: 79 Chickens, 76 Wolves, 1 Boat
+Right Bank: 21 Chickens, 21 Wolves, 0 Boat
+
+Left Bank: 78 Chickens, 75 Wolves, 0 Boat
+Right Bank: 22 Chickens, 22 Wolves, 1 Boat
+
+Left Bank: 78 Chickens, 77 Wolves, 1 Boat
+Right Bank: 22 Chickens, 20 Wolves, 0 Boat
+
+Left Bank: 77 Chickens, 77 Wolves, 0 Boat
+Right Bank: 23 Chickens, 20 Wolves, 1 Boat
+
+Left Bank: 79 Chickens, 77 Wolves, 1 Boat
+Right Bank: 21 Chickens, 20 Wolves, 0 Boat
+
+Left Bank: 78 Chickens, 76 Wolves, 0 Boat
+Right Bank: 22 Chickens, 21 Wolves, 1 Boat
+
+Left Bank: 78 Chickens, 78 Wolves, 1 Boat
+Right Bank: 22 Chickens, 19 Wolves, 0 Boat
+
+Left Bank: 78 Chickens, 77 Wolves, 0 Boat
+Right Bank: 22 Chickens, 20 Wolves, 1 Boat
+
+Left Bank: 80 Chickens, 77 Wolves, 1 Boat
+Right Bank: 20 Chickens, 20 Wolves, 0 Boat
+
+Left Bank: 79 Chickens, 76 Wolves, 0 Boat
+Right Bank: 21 Chickens, 21 Wolves, 1 Boat
+
+Left Bank: 79 Chickens, 78 Wolves, 1 Boat
+Right Bank: 21 Chickens, 19 Wolves, 0 Boat
+
+Left Bank: 78 Chickens, 78 Wolves, 0 Boat
+Right Bank: 22 Chickens, 19 Wolves, 1 Boat
+
+Left Bank: 80 Chickens, 78 Wolves, 1 Boat
+Right Bank: 20 Chickens, 19 Wolves, 0 Boat
+
+Left Bank: 79 Chickens, 77 Wolves, 0 Boat
+Right Bank: 21 Chickens, 20 Wolves, 1 Boat
+
+Left Bank: 79 Chickens, 79 Wolves, 1 Boat
+Right Bank: 21 Chickens, 18 Wolves, 0 Boat
+
+Left Bank: 79 Chickens, 78 Wolves, 0 Boat
+Right Bank: 21 Chickens, 19 Wolves, 1 Boat
+
+Left Bank: 81 Chickens, 78 Wolves, 1 Boat
+Right Bank: 19 Chickens, 19 Wolves, 0 Boat
+
+Left Bank: 80 Chickens, 77 Wolves, 0 Boat
+Right Bank: 20 Chickens, 20 Wolves, 1 Boat
+
+Left Bank: 80 Chickens, 79 Wolves, 1 Boat
+Right Bank: 20 Chickens, 18 Wolves, 0 Boat
+
+Left Bank: 79 Chickens, 79 Wolves, 0 Boat
+Right Bank: 21 Chickens, 18 Wolves, 1 Boat
+
+Left Bank: 81 Chickens, 79 Wolves, 1 Boat
+Right Bank: 19 Chickens, 18 Wolves, 0 Boat
+
+Left Bank: 80 Chickens, 78 Wolves, 0 Boat
+Right Bank: 20 Chickens, 19 Wolves, 1 Boat
+
+Left Bank: 80 Chickens, 80 Wolves, 1 Boat
+Right Bank: 20 Chickens, 17 Wolves, 0 Boat
+
+Left Bank: 80 Chickens, 79 Wolves, 0 Boat
+Right Bank: 20 Chickens, 18 Wolves, 1 Boat
+
+Left Bank: 82 Chickens, 79 Wolves, 1 Boat
+Right Bank: 18 Chickens, 18 Wolves, 0 Boat
+
+Left Bank: 81 Chickens, 78 Wolves, 0 Boat
+Right Bank: 19 Chickens, 19 Wolves, 1 Boat
+
+Left Bank: 81 Chickens, 80 Wolves, 1 Boat
+Right Bank: 19 Chickens, 17 Wolves, 0 Boat
+
+Left Bank: 80 Chickens, 80 Wolves, 0 Boat
+Right Bank: 20 Chickens, 17 Wolves, 1 Boat
+
+Left Bank: 82 Chickens, 80 Wolves, 1 Boat
+Right Bank: 18 Chickens, 17 Wolves, 0 Boat
+
+Left Bank: 81 Chickens, 79 Wolves, 0 Boat
+Right Bank: 19 Chickens, 18 Wolves, 1 Boat
+
+Left Bank: 81 Chickens, 81 Wolves, 1 Boat
+Right Bank: 19 Chickens, 16 Wolves, 0 Boat
+
+Left Bank: 81 Chickens, 80 Wolves, 0 Boat
+Right Bank: 19 Chickens, 17 Wolves, 1 Boat
+
+Left Bank: 83 Chickens, 80 Wolves, 1 Boat
+Right Bank: 17 Chickens, 17 Wolves, 0 Boat
+
+Left Bank: 82 Chickens, 79 Wolves, 0 Boat
+Right Bank: 18 Chickens, 18 Wolves, 1 Boat
+
+Left Bank: 82 Chickens, 81 Wolves, 1 Boat
+Right Bank: 18 Chickens, 16 Wolves, 0 Boat
+
+Left Bank: 81 Chickens, 81 Wolves, 0 Boat
+Right Bank: 19 Chickens, 16 Wolves, 1 Boat
+
+Left Bank: 83 Chickens, 81 Wolves, 1 Boat
+Right Bank: 17 Chickens, 16 Wolves, 0 Boat
+
+Left Bank: 82 Chickens, 80 Wolves, 0 Boat
+Right Bank: 18 Chickens, 17 Wolves, 1 Boat
+
+Left Bank: 82 Chickens, 82 Wolves, 1 Boat
+Right Bank: 18 Chickens, 15 Wolves, 0 Boat
+
+Left Bank: 82 Chickens, 81 Wolves, 0 Boat
+Right Bank: 18 Chickens, 16 Wolves, 1 Boat
+
+Left Bank: 84 Chickens, 81 Wolves, 1 Boat
+Right Bank: 16 Chickens, 16 Wolves, 0 Boat
+
+Left Bank: 83 Chickens, 80 Wolves, 0 Boat
+Right Bank: 17 Chickens, 17 Wolves, 1 Boat
+
+Left Bank: 83 Chickens, 82 Wolves, 1 Boat
+Right Bank: 17 Chickens, 15 Wolves, 0 Boat
+
+Left Bank: 82 Chickens, 82 Wolves, 0 Boat
+Right Bank: 18 Chickens, 15 Wolves, 1 Boat
+
+Left Bank: 84 Chickens, 82 Wolves, 1 Boat
+Right Bank: 16 Chickens, 15 Wolves, 0 Boat
+
+Left Bank: 83 Chickens, 81 Wolves, 0 Boat
+Right Bank: 17 Chickens, 16 Wolves, 1 Boat
+
+Left Bank: 83 Chickens, 83 Wolves, 1 Boat
+Right Bank: 17 Chickens, 14 Wolves, 0 Boat
+
+Left Bank: 83 Chickens, 82 Wolves, 0 Boat
+Right Bank: 17 Chickens, 15 Wolves, 1 Boat
+
+Left Bank: 85 Chickens, 82 Wolves, 1 Boat
+Right Bank: 15 Chickens, 15 Wolves, 0 Boat
+
+Left Bank: 84 Chickens, 81 Wolves, 0 Boat
+Right Bank: 16 Chickens, 16 Wolves, 1 Boat
+
+Left Bank: 84 Chickens, 83 Wolves, 1 Boat
+Right Bank: 16 Chickens, 14 Wolves, 0 Boat
+
+Left Bank: 83 Chickens, 83 Wolves, 0 Boat
+Right Bank: 17 Chickens, 14 Wolves, 1 Boat
+
+Left Bank: 85 Chickens, 83 Wolves, 1 Boat
+Right Bank: 15 Chickens, 14 Wolves, 0 Boat
+
+Left Bank: 84 Chickens, 82 Wolves, 0 Boat
+Right Bank: 16 Chickens, 15 Wolves, 1 Boat
+
+Left Bank: 84 Chickens, 84 Wolves, 1 Boat
+Right Bank: 16 Chickens, 13 Wolves, 0 Boat
+
+Left Bank: 84 Chickens, 83 Wolves, 0 Boat
+Right Bank: 16 Chickens, 14 Wolves, 1 Boat
+
+Left Bank: 86 Chickens, 83 Wolves, 1 Boat
+Right Bank: 14 Chickens, 14 Wolves, 0 Boat
+
+Left Bank: 85 Chickens, 82 Wolves, 0 Boat
+Right Bank: 15 Chickens, 15 Wolves, 1 Boat
+
+Left Bank: 85 Chickens, 84 Wolves, 1 Boat
+Right Bank: 15 Chickens, 13 Wolves, 0 Boat
+
+Left Bank: 84 Chickens, 84 Wolves, 0 Boat
+Right Bank: 16 Chickens, 13 Wolves, 1 Boat
+
+Left Bank: 86 Chickens, 84 Wolves, 1 Boat
+Right Bank: 14 Chickens, 13 Wolves, 0 Boat
+
+Left Bank: 85 Chickens, 83 Wolves, 0 Boat
+Right Bank: 15 Chickens, 14 Wolves, 1 Boat
+
+Left Bank: 85 Chickens, 85 Wolves, 1 Boat
+Right Bank: 15 Chickens, 12 Wolves, 0 Boat
+
+Left Bank: 85 Chickens, 84 Wolves, 0 Boat
+Right Bank: 15 Chickens, 13 Wolves, 1 Boat
+
+Left Bank: 87 Chickens, 84 Wolves, 1 Boat
+Right Bank: 13 Chickens, 13 Wolves, 0 Boat
+
+Left Bank: 86 Chickens, 83 Wolves, 0 Boat
+Right Bank: 14 Chickens, 14 Wolves, 1 Boat
+
+Left Bank: 86 Chickens, 85 Wolves, 1 Boat
+Right Bank: 14 Chickens, 12 Wolves, 0 Boat
+
+Left Bank: 85 Chickens, 85 Wolves, 0 Boat
+Right Bank: 15 Chickens, 12 Wolves, 1 Boat
+
+Left Bank: 87 Chickens, 85 Wolves, 1 Boat
+Right Bank: 13 Chickens, 12 Wolves, 0 Boat
+
+Left Bank: 86 Chickens, 84 Wolves, 0 Boat
+Right Bank: 14 Chickens, 13 Wolves, 1 Boat
+
+Left Bank: 86 Chickens, 86 Wolves, 1 Boat
+Right Bank: 14 Chickens, 11 Wolves, 0 Boat
+
+Left Bank: 86 Chickens, 85 Wolves, 0 Boat
+Right Bank: 14 Chickens, 12 Wolves, 1 Boat
+
+Left Bank: 88 Chickens, 85 Wolves, 1 Boat
+Right Bank: 12 Chickens, 12 Wolves, 0 Boat
+
+Left Bank: 87 Chickens, 84 Wolves, 0 Boat
+Right Bank: 13 Chickens, 13 Wolves, 1 Boat
+
+Left Bank: 87 Chickens, 86 Wolves, 1 Boat
+Right Bank: 13 Chickens, 11 Wolves, 0 Boat
+
+Left Bank: 86 Chickens, 86 Wolves, 0 Boat
+Right Bank: 14 Chickens, 11 Wolves, 1 Boat
+
+Left Bank: 88 Chickens, 86 Wolves, 1 Boat
+Right Bank: 12 Chickens, 11 Wolves, 0 Boat
+
+Left Bank: 87 Chickens, 85 Wolves, 0 Boat
+Right Bank: 13 Chickens, 12 Wolves, 1 Boat
+
+Left Bank: 87 Chickens, 87 Wolves, 1 Boat
+Right Bank: 13 Chickens, 10 Wolves, 0 Boat
+
+Left Bank: 87 Chickens, 86 Wolves, 0 Boat
+Right Bank: 13 Chickens, 11 Wolves, 1 Boat
+
+Left Bank: 89 Chickens, 86 Wolves, 1 Boat
+Right Bank: 11 Chickens, 11 Wolves, 0 Boat
+
+Left Bank: 88 Chickens, 85 Wolves, 0 Boat
+Right Bank: 12 Chickens, 12 Wolves, 1 Boat
+
+Left Bank: 88 Chickens, 87 Wolves, 1 Boat
+Right Bank: 12 Chickens, 10 Wolves, 0 Boat
+
+Left Bank: 87 Chickens, 87 Wolves, 0 Boat
+Right Bank: 13 Chickens, 10 Wolves, 1 Boat
+
+Left Bank: 89 Chickens, 87 Wolves, 1 Boat
+Right Bank: 11 Chickens, 10 Wolves, 0 Boat
+
+Left Bank: 88 Chickens, 86 Wolves, 0 Boat
+Right Bank: 12 Chickens, 11 Wolves, 1 Boat
+
+Left Bank: 88 Chickens, 88 Wolves, 1 Boat
+Right Bank: 12 Chickens, 9 Wolves, 0 Boat
+
+Left Bank: 88 Chickens, 87 Wolves, 0 Boat
+Right Bank: 12 Chickens, 10 Wolves, 1 Boat
+
+Left Bank: 90 Chickens, 87 Wolves, 1 Boat
+Right Bank: 10 Chickens, 10 Wolves, 0 Boat
+
+Left Bank: 89 Chickens, 86 Wolves, 0 Boat
+Right Bank: 11 Chickens, 11 Wolves, 1 Boat
+
+Left Bank: 89 Chickens, 88 Wolves, 1 Boat
+Right Bank: 11 Chickens, 9 Wolves, 0 Boat
+
+Left Bank: 88 Chickens, 88 Wolves, 0 Boat
+Right Bank: 12 Chickens, 9 Wolves, 1 Boat
+
+Left Bank: 90 Chickens, 88 Wolves, 1 Boat
+Right Bank: 10 Chickens, 9 Wolves, 0 Boat
+
+Left Bank: 89 Chickens, 87 Wolves, 0 Boat
+Right Bank: 11 Chickens, 10 Wolves, 1 Boat
+
+Left Bank: 89 Chickens, 89 Wolves, 1 Boat
+Right Bank: 11 Chickens, 8 Wolves, 0 Boat
+
+Left Bank: 89 Chickens, 88 Wolves, 0 Boat
+Right Bank: 11 Chickens, 9 Wolves, 1 Boat
+
+Left Bank: 91 Chickens, 88 Wolves, 1 Boat
+Right Bank: 9 Chickens, 9 Wolves, 0 Boat
+
+Left Bank: 90 Chickens, 87 Wolves, 0 Boat
+Right Bank: 10 Chickens, 10 Wolves, 1 Boat
+
+Left Bank: 90 Chickens, 89 Wolves, 1 Boat
+Right Bank: 10 Chickens, 8 Wolves, 0 Boat
+
+Left Bank: 89 Chickens, 89 Wolves, 0 Boat
+Right Bank: 11 Chickens, 8 Wolves, 1 Boat
+
+Left Bank: 91 Chickens, 89 Wolves, 1 Boat
+Right Bank: 9 Chickens, 8 Wolves, 0 Boat
+
+Left Bank: 90 Chickens, 88 Wolves, 0 Boat
+Right Bank: 10 Chickens, 9 Wolves, 1 Boat
+
+Left Bank: 90 Chickens, 90 Wolves, 1 Boat
+Right Bank: 10 Chickens, 7 Wolves, 0 Boat
+
+Left Bank: 90 Chickens, 89 Wolves, 0 Boat
+Right Bank: 10 Chickens, 8 Wolves, 1 Boat
+
+Left Bank: 92 Chickens, 89 Wolves, 1 Boat
+Right Bank: 8 Chickens, 8 Wolves, 0 Boat
+
+Left Bank: 91 Chickens, 88 Wolves, 0 Boat
+Right Bank: 9 Chickens, 9 Wolves, 1 Boat
+
+Left Bank: 91 Chickens, 90 Wolves, 1 Boat
+Right Bank: 9 Chickens, 7 Wolves, 0 Boat
+
+Left Bank: 90 Chickens, 90 Wolves, 0 Boat
+Right Bank: 10 Chickens, 7 Wolves, 1 Boat
+
+Left Bank: 92 Chickens, 90 Wolves, 1 Boat
+Right Bank: 8 Chickens, 7 Wolves, 0 Boat
+
+Left Bank: 91 Chickens, 89 Wolves, 0 Boat
+Right Bank: 9 Chickens, 8 Wolves, 1 Boat
+
+Left Bank: 91 Chickens, 91 Wolves, 1 Boat
+Right Bank: 9 Chickens, 6 Wolves, 0 Boat
+
+Left Bank: 91 Chickens, 90 Wolves, 0 Boat
+Right Bank: 9 Chickens, 7 Wolves, 1 Boat
+
+Left Bank: 93 Chickens, 90 Wolves, 1 Boat
+Right Bank: 7 Chickens, 7 Wolves, 0 Boat
+
+Left Bank: 92 Chickens, 89 Wolves, 0 Boat
+Right Bank: 8 Chickens, 8 Wolves, 1 Boat
+
+Left Bank: 92 Chickens, 91 Wolves, 1 Boat
+Right Bank: 8 Chickens, 6 Wolves, 0 Boat
+
+Left Bank: 91 Chickens, 91 Wolves, 0 Boat
+Right Bank: 9 Chickens, 6 Wolves, 1 Boat
+
+Left Bank: 93 Chickens, 91 Wolves, 1 Boat
+Right Bank: 7 Chickens, 6 Wolves, 0 Boat
+
+Left Bank: 92 Chickens, 90 Wolves, 0 Boat
+Right Bank: 8 Chickens, 7 Wolves, 1 Boat
+
+Left Bank: 92 Chickens, 92 Wolves, 1 Boat
+Right Bank: 8 Chickens, 5 Wolves, 0 Boat
+
+Left Bank: 92 Chickens, 91 Wolves, 0 Boat
+Right Bank: 8 Chickens, 6 Wolves, 1 Boat
+
+Left Bank: 94 Chickens, 91 Wolves, 1 Boat
+Right Bank: 6 Chickens, 6 Wolves, 0 Boat
+
+Left Bank: 93 Chickens, 90 Wolves, 0 Boat
+Right Bank: 7 Chickens, 7 Wolves, 1 Boat
+
+Left Bank: 93 Chickens, 92 Wolves, 1 Boat
+Right Bank: 7 Chickens, 5 Wolves, 0 Boat
+
+Left Bank: 92 Chickens, 92 Wolves, 0 Boat
+Right Bank: 8 Chickens, 5 Wolves, 1 Boat
+
+Left Bank: 94 Chickens, 92 Wolves, 1 Boat
+Right Bank: 6 Chickens, 5 Wolves, 0 Boat
+
+Left Bank: 93 Chickens, 91 Wolves, 0 Boat
+Right Bank: 7 Chickens, 6 Wolves, 1 Boat
+
+Left Bank: 93 Chickens, 93 Wolves, 1 Boat
+Right Bank: 7 Chickens, 4 Wolves, 0 Boat
+
+Left Bank: 93 Chickens, 92 Wolves, 0 Boat
+Right Bank: 7 Chickens, 5 Wolves, 1 Boat
+
+Left Bank: 95 Chickens, 92 Wolves, 1 Boat
+Right Bank: 5 Chickens, 5 Wolves, 0 Boat
+
+Left Bank: 94 Chickens, 91 Wolves, 0 Boat
+Right Bank: 6 Chickens, 6 Wolves, 1 Boat
+
+Left Bank: 94 Chickens, 93 Wolves, 1 Boat
+Right Bank: 6 Chickens, 4 Wolves, 0 Boat
+
+Left Bank: 93 Chickens, 93 Wolves, 0 Boat
+Right Bank: 7 Chickens, 4 Wolves, 1 Boat
+
+Left Bank: 95 Chickens, 93 Wolves, 1 Boat
+Right Bank: 5 Chickens, 4 Wolves, 0 Boat
+
+Left Bank: 94 Chickens, 92 Wolves, 0 Boat
+Right Bank: 6 Chickens, 5 Wolves, 1 Boat
+
+Left Bank: 94 Chickens, 94 Wolves, 1 Boat
+Right Bank: 6 Chickens, 3 Wolves, 0 Boat
+
+Left Bank: 94 Chickens, 93 Wolves, 0 Boat
+Right Bank: 6 Chickens, 4 Wolves, 1 Boat
+
+Left Bank: 96 Chickens, 93 Wolves, 1 Boat
+Right Bank: 4 Chickens, 4 Wolves, 0 Boat
+
+Left Bank: 95 Chickens, 92 Wolves, 0 Boat
+Right Bank: 5 Chickens, 5 Wolves, 1 Boat
+
+Left Bank: 95 Chickens, 94 Wolves, 1 Boat
+Right Bank: 5 Chickens, 3 Wolves, 0 Boat
+
+Left Bank: 94 Chickens, 94 Wolves, 0 Boat
+Right Bank: 6 Chickens, 3 Wolves, 1 Boat
+
+Left Bank: 96 Chickens, 94 Wolves, 1 Boat
+Right Bank: 4 Chickens, 3 Wolves, 0 Boat
+
+Left Bank: 95 Chickens, 93 Wolves, 0 Boat
+Right Bank: 5 Chickens, 4 Wolves, 1 Boat
+
+Left Bank: 95 Chickens, 95 Wolves, 1 Boat
+Right Bank: 5 Chickens, 2 Wolves, 0 Boat
+
+Left Bank: 95 Chickens, 94 Wolves, 0 Boat
+Right Bank: 5 Chickens, 3 Wolves, 1 Boat
+
+Left Bank: 97 Chickens, 94 Wolves, 1 Boat
+Right Bank: 3 Chickens, 3 Wolves, 0 Boat
+
+Left Bank: 96 Chickens, 93 Wolves, 0 Boat
+Right Bank: 4 Chickens, 4 Wolves, 1 Boat
+
+Left Bank: 96 Chickens, 95 Wolves, 1 Boat
+Right Bank: 4 Chickens, 2 Wolves, 0 Boat
+
+Left Bank: 95 Chickens, 95 Wolves, 0 Boat
+Right Bank: 5 Chickens, 2 Wolves, 1 Boat
+
+Left Bank: 97 Chickens, 95 Wolves, 1 Boat
+Right Bank: 3 Chickens, 2 Wolves, 0 Boat
+
+Left Bank: 96 Chickens, 94 Wolves, 0 Boat
+Right Bank: 4 Chickens, 3 Wolves, 1 Boat
+
+Left Bank: 96 Chickens, 96 Wolves, 1 Boat
+Right Bank: 4 Chickens, 1 Wolves, 0 Boat
+
+Left Bank: 96 Chickens, 95 Wolves, 0 Boat
+Right Bank: 4 Chickens, 2 Wolves, 1 Boat
+
+Left Bank: 98 Chickens, 95 Wolves, 1 Boat
+Right Bank: 2 Chickens, 2 Wolves, 0 Boat
+
+Left Bank: 97 Chickens, 94 Wolves, 0 Boat
+Right Bank: 3 Chickens, 3 Wolves, 1 Boat
+
+Left Bank: 97 Chickens, 96 Wolves, 1 Boat
+Right Bank: 3 Chickens, 1 Wolves, 0 Boat
+
+Left Bank: 96 Chickens, 96 Wolves, 0 Boat
+Right Bank: 4 Chickens, 1 Wolves, 1 Boat
+
+Left Bank: 98 Chickens, 96 Wolves, 1 Boat
+Right Bank: 2 Chickens, 1 Wolves, 0 Boat
+
+Left Bank: 97 Chickens, 95 Wolves, 0 Boat
+Right Bank: 3 Chickens, 2 Wolves, 1 Boat
+
+Left Bank: 97 Chickens, 97 Wolves, 1 Boat
+Right Bank: 3 Chickens, 0 Wolves, 0 Boat
+
+Left Bank: 97 Chickens, 96 Wolves, 0 Boat
+Right Bank: 3 Chickens, 1 Wolves, 1 Boat
+
+Left Bank: 98 Chickens, 97 Wolves, 1 Boat
+Right Bank: 2 Chickens, 0 Wolves, 0 Boat
+
+Left Bank: 98 Chickens, 95 Wolves, 0 Boat
+Right Bank: 2 Chickens, 2 Wolves, 1 Boat
+
+Left Bank: 100 Chickens, 95 Wolves, 1 Boat
+Right Bank: 0 Chickens, 2 Wolves, 0 Boat
+
+Left Bank: 100 Chickens, 94 Wolves, 0 Boat
+Right Bank: 0 Chickens, 3 Wolves, 1 Boat
+
+Left Bank: 100 Chickens, 96 Wolves, 1 Boat
+Right Bank: 0 Chickens, 1 Wolves, 0 Boat
+
+Left Bank: 100 Chickens, 95 Wolves, 0 Boat
+Right Bank: 0 Chickens, 2 Wolves, 1 Boat
+
+Left Bank: 100 Chickens, 97 Wolves, 1 Boat
 Right Bank: 0 Chickens, 0 Wolves, 0 Boat
 
-Nodes Expanded: 11
+Nodes Expanded: 963
 
-Path Length: 11
+Path Length: 775

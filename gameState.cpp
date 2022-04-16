@@ -280,7 +280,7 @@ int gameState::getDepth() {
     return depth;
 }
 
-int gameState::getStateKey() {
+string gameState::getStateKey() {
     string s = "";
     s = s.append(to_string(game.leftChickens));
     s = s.append(to_string(game.leftWolves));
@@ -288,7 +288,7 @@ int gameState::getStateKey() {
     s = s.append(to_string(game.rightChickens));
     s = s.append(to_string(game.rightWolves));
     s = s.append(to_string(game.boat == true));
-    return stoi(s);
+    return s;
 }
 
 void gameState::printState() {

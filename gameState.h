@@ -32,7 +32,7 @@ class gameState {
         int getDepth();
         struct state getGoal();
 
-        int getStateKey(); //accessor for unique string representation of current state (331001)
+        string getStateKey(); //accessor for unique string representation of current state (331001)
     
         void printState();
 
