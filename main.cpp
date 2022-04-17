@@ -259,11 +259,22 @@ gameState * iddfsSearch(struct state init, struct state goal, char * output_file
         }
         if (s->getDepth() >= depth) {
           bool remove = true;
-          while (remove == true) {
+          gameState * p;
+          gameState ** c;
+          if (s->getParent() != NULL) {
+            p = s->getParent();
+            c = p->getChildren();
+          }
+          else {
+            p = NULL;
+            c = NULL;
+          }
+          
+          while (remove == true && s->getParent() != NULL) {
             frontierMap.erase(s->getStateKey());
             explored.erase(s->getStateKey());
-            gameState * p = s->getParent();
-            gameState ** c = p->getChildren();
+            p = s->getParent();
+            c = p->getChildren();
             for (int i = 0; i < 5; i++) {
               if (c[i] == NULL)
                 continue;
@@ -318,7 +329,7 @@ gameState * astarSearch(struct state init, struct state goal, char * output_file
   map<string, bool> frontierMap;
   
   //initialize the frontier with the initial state
-  priority_queue<gameState *> frontier;
+  priority_queue<gameState *, std::vector<gameState *>, gameState> frontier;
   frontier.push(s);
 
   while (true) {

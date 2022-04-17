@@ -55,30 +55,22 @@ gameState * gameState::expand() {
 }
 
 // checks how many more moves the game would take if wolves did not have to be <= chickens
-int heuristic(gameState * s)
+int gameState::heuristic(const gameState * s) const
 {
-  // if (goal_side) // goal is on the right
-  // {
-  //   return (s->getState().leftChickens + s->getState().leftWolves) / 2;
-  // }
-  // else // goal is on the left
-  // {
-  //   return (s->getState().rightChickens + s->getState().rightWolves) / 2;
-  // }
   int h = 0;
-  struct state state = s->getState();
+  struct state state = s->getStateConst();
   int leftChickens = state.leftChickens;
   int leftWolves = state.leftWolves;
-  h = abs(s->getGoal().leftChickens - leftChickens) + abs(s->getGoal().leftWolves - leftWolves);
+  h = abs(s->getGoalConst().leftChickens - leftChickens) + abs(s->getGoalConst().leftWolves - leftWolves);
   if (h==2)
     return 1;
   else
     return h;
 }
 
-bool gameState::operator<(gameState * s1)
+bool gameState::operator()(const gameState * s1, const gameState * s2) const
 {
-    return (s1->getDepth() + heuristic(s1)) > (this->getDepth() + heuristic(this));
+    return (s2->getDepthConst() + heuristic(s2)) < (s1->getDepthConst() + heuristic(s1));
 }
 
 bool gameState::isWon() {
@@ -277,6 +269,18 @@ gameState * gameState::getParent() {
 }
 
 int gameState::getDepth() {
+    return depth;
+}
+
+struct state gameState::getStateConst() const {
+    return game;
+}
+
+struct state gameState::getGoalConst() const {
+    return goal;
+}
+
+int gameState::getDepthConst() const {
     return depth;
 }
 
